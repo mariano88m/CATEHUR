@@ -1,0 +1,2305 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GUI
+</name>
+</assembly>
+<members>
+<member name="F:GUI.GestionUsuario.lbl_gestionUsuario">
+	<summary>
+Control lbl_gestionUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_usuario">
+	<summary>
+Control lbl_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.cmb_usuario">
+	<summary>
+Control cmb_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.btn_buscarUsuario">
+	<summary>
+Control btn_buscarUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_nombreUsuario">
+	<summary>
+Control lbl_nombreUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_NombreUsuario">
+	<summary>
+Control txt_NombreUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.idUsuario">
+	<summary>
+Control idUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_contraseña">
+	<summary>
+Control lbl_contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_contraseña">
+	<summary>
+Control txt_contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_nombre">
+	<summary>
+Control lbl_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_nombre">
+	<summary>
+Control txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_apellido">
+	<summary>
+Control lbl_apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_apellido">
+	<summary>
+Control txt_apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_email">
+	<summary>
+Control lbl_email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_email">
+	<summary>
+Control txt_email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_domicilio">
+	<summary>
+Control lbl_domicilio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_domicilio">
+	<summary>
+Control txt_domicilio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_Telefono">
+	<summary>
+Control lbl_Telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.txt_telefono">
+	<summary>
+Control txt_telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_tipoEmpleado">
+	<summary>
+Control lbl_tipoEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.cmb_tipoempleado">
+	<summary>
+Control cmb_tipoempleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_PermisosAsignados">
+	<summary>
+Control lbl_PermisosAsignados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.lbl_PermisosDisponibles">
+	<summary>
+Control lbl_PermisosDisponibles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.dt_FamiliasAsignadas">
+	<summary>
+Control dt_FamiliasAsignadas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.dt_FamiliasDisponibles">
+	<summary>
+Control dt_FamiliasDisponibles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.btn_QuitarPermiso">
+	<summary>
+Control btn_QuitarPermiso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.btn_AsignarPermiso">
+	<summary>
+Control btn_AsignarPermiso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.btn_AltaUsuario">
+	<summary>
+Control btn_AltaUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.btn_ModificarUsuario">
+	<summary>
+Control btn_ModificarUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionUsuario.btn_BajaUsuario">
+	<summary>
+Control btn_BajaUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_SolicitudPresupuesto">
+	<summary>
+Control lbl_SolicitudPresupuesto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_Cliente">
+	<summary>
+Control lbl_Cliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.cmb_cliente">
+	<summary>
+Control cmb_cliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.btn_altaCliente">
+	<summary>
+Control btn_altaCliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_NombreEvento">
+	<summary>
+Control lbl_NombreEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.Txt_NombreEvento">
+	<summary>
+Control Txt_NombreEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_DireccionEvento">
+	<summary>
+Control lbl_DireccionEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.txt_direccionEvento">
+	<summary>
+Control txt_direccionEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_localidad">
+	<summary>
+Control lbl_localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.cmb_localidad">
+	<summary>
+Control cmb_localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_TipoCatering">
+	<summary>
+Control lbl_TipoCatering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.rd_catering">
+	<summary>
+Control rd_catering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_PrecioPersona">
+	<summary>
+Control lbl_PrecioPersona.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_PrecioXPersona">
+	<summary>
+Control lbl_PrecioXPersona.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.btn_SeleccionarMenu">
+	<summary>
+Control btn_SeleccionarMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.ModalCatering">
+	<summary>
+Control ModalCatering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_cantPersonas">
+	<summary>
+Control lbl_cantPersonas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.txt_cantPersonas">
+	<summary>
+Control txt_cantPersonas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_fecha">
+	<summary>
+Control lbl_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.Txt_fecha">
+	<summary>
+Control Txt_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.Calendar1">
+	<summary>
+Control Calendar1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.Btn_fecha">
+	<summary>
+Control Btn_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_comentarios">
+	<summary>
+Control lbl_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.txt_comentarios">
+	<summary>
+Control txt_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.Btn_Limpiar">
+	<summary>
+Control Btn_Limpiar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.btn_GenerarPresupuesto">
+	<summary>
+Control btn_GenerarPresupuesto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_Entrada">
+	<summary>
+Control lbl_Entrada.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_PlatoPrincipal">
+	<summary>
+Control lbl_PlatoPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_postre">
+	<summary>
+Control lbl_postre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_bebida">
+	<summary>
+Control lbl_bebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.Chk_Entrada">
+	<summary>
+Control Chk_Entrada.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.chk_PlatoPrincipal">
+	<summary>
+Control chk_PlatoPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.chk_Postre">
+	<summary>
+Control chk_Postre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.chk_bebida">
+	<summary>
+Control chk_bebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.btn_ConfirmarMenu">
+	<summary>
+Control btn_ConfirmarMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarPerdidas.lbl_registrarPerdidas">
+	<summary>
+Control lbl_registrarPerdidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarPerdidas.lbl_Elemento">
+	<summary>
+Control lbl_Elemento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarPerdidas.cmb_Elemento">
+	<summary>
+Control cmb_Elemento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarPerdidas.lbl_CantElemento">
+	<summary>
+Control lbl_CantElemento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarPerdidas.txt_CantElemento">
+	<summary>
+Control txt_CantElemento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarPerdidas.Btn_registrarPerdida">
+	<summary>
+Control Btn_registrarPerdida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.Lbl_ElaboracionPlatos">
+	<summary>
+Control Lbl_ElaboracionPlatos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_platos">
+	<summary>
+Control lbl_platos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.cmb_Plato">
+	<summary>
+Control cmb_Plato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_buscarPlato">
+	<summary>
+Control btn_buscarPlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_nombrePlato">
+	<summary>
+Control lbl_nombrePlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.txt_NombrePlato">
+	<summary>
+Control txt_NombrePlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.idPlato">
+	<summary>
+Control idPlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_manodeobra">
+	<summary>
+Control lbl_manodeobra.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.txt_Manodeobra">
+	<summary>
+Control txt_Manodeobra.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_precio">
+	<summary>
+Control lbl_precio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.txt_precio">
+	<summary>
+Control txt_precio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_tipomenu">
+	<summary>
+Control lbl_tipomenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.cmb_tipomenu">
+	<summary>
+Control cmb_tipomenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_ingredientesAsignados">
+	<summary>
+Control lbl_ingredientesAsignados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_IngredientesDiponibles">
+	<summary>
+Control lbl_IngredientesDiponibles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.dt_IngredientesAsignados">
+	<summary>
+Control dt_IngredientesAsignados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_ingrediente">
+	<summary>
+Control lbl_ingrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.cmb_Ingredientes">
+	<summary>
+Control cmb_Ingredientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_AgregarNuevoIngrediente">
+	<summary>
+Control btn_AgregarNuevoIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_BajaIngrediente">
+	<summary>
+Control btn_BajaIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_NuevoIngrediente">
+	<summary>
+Control lbl_NuevoIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.txt_NuevoIngrediente">
+	<summary>
+Control txt_NuevoIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_NuevoIngredientePrecio">
+	<summary>
+Control lbl_NuevoIngredientePrecio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.txt_NuevoIngredientePrecio">
+	<summary>
+Control txt_NuevoIngredientePrecio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_AltaIngrediente">
+	<summary>
+Control btn_AltaIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_cantidad">
+	<summary>
+Control lbl_cantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.txt_cantidad">
+	<summary>
+Control txt_cantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_QuitarIngrediente">
+	<summary>
+Control btn_QuitarIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_AgregarIngrediente">
+	<summary>
+Control btn_AgregarIngrediente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.dt_cateringAsignados">
+	<summary>
+Control dt_cateringAsignados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.lbl_catering">
+	<summary>
+Control lbl_catering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.cmb_catering">
+	<summary>
+Control cmb_catering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_quitarCatering">
+	<summary>
+Control btn_quitarCatering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_asignarCatering">
+	<summary>
+Control btn_asignarCatering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_AltaPlato">
+	<summary>
+Control btn_AltaPlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_modificarPlato">
+	<summary>
+Control btn_modificarPlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.ElaboracionPlatos.btn_bajaPlato">
+	<summary>
+Control btn_bajaPlato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.lbl_fechas">
+	<summary>
+Control lbl_fechas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Txt_fechaDesde">
+	<summary>
+Control Txt_fechaDesde.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Btn_fechaDesde">
+	<summary>
+Control Btn_fechaDesde.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Calendar1">
+	<summary>
+Control Calendar1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Txt_fechaHasta">
+	<summary>
+Control Txt_fechaHasta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Btn_fechaHasta">
+	<summary>
+Control Btn_fechaHasta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Calendar2">
+	<summary>
+Control Calendar2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.lbl_usuario">
+	<summary>
+Control lbl_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.cmb_usuario">
+	<summary>
+Control cmb_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.lbl_Accion">
+	<summary>
+Control lbl_Accion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.cmd_Accion">
+	<summary>
+Control cmd_Accion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.Btn_buscar">
+	<summary>
+Control Btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBitacora.dtBitacora">
+	<summary>
+Control dtBitacora.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBackup.lbl_realizarbackup">
+	<summary>
+Control lbl_realizarbackup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBackup.btnBackup">
+	<summary>
+Control btnBackup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBackup.lstBackupfiles">
+	<summary>
+Control lstBackupfiles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBackup.btnRestore">
+	<summary>
+Control btnRestore.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionBackup.lblMessage">
+	<summary>
+Control lblMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.lbl_PreparacionEntrega">
+	<summary>
+Control lbl_PreparacionEntrega.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.lbl_NroEvento">
+	<summary>
+Control lbl_NroEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.txt_idevento">
+	<summary>
+Control txt_idevento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.lbl_NombreEvento">
+	<summary>
+Control lbl_NombreEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.Txt_NombreEvento">
+	<summary>
+Control Txt_NombreEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.Btn_buscar">
+	<summary>
+Control Btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.lbl_eventos">
+	<summary>
+Control lbl_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.dt_eventos">
+	<summary>
+Control dt_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.btn_ConfeccionOrdenCompra">
+	<summary>
+Control btn_ConfeccionOrdenCompra.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.chk_ingredientes">
+	<summary>
+Control chk_ingredientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.chk_platos">
+	<summary>
+Control chk_platos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.chk_vajillas">
+	<summary>
+Control chk_vajillas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.PreparacionEntrega.btn_confirmarEntrega">
+	<summary>
+Control btn_confirmarEntrega.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_AsignarPersonal">
+	<summary>
+Control lbl_AsignarPersonal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_eventos">
+	<summary>
+Control lbl_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.dt_eventos">
+	<summary>
+Control dt_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_ListaEmpleados">
+	<summary>
+Control lbl_ListaEmpleados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.dt_empleados">
+	<summary>
+Control dt_empleados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.btn_desasignarEmpleado">
+	<summary>
+Control btn_desasignarEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_datosEmpleados">
+	<summary>
+Control lbl_datosEmpleados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_Camarero">
+	<summary>
+Control lbl_Camarero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_Cocinero">
+	<summary>
+Control lbl_Cocinero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.dt_cocineros">
+	<summary>
+Control dt_cocineros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.dt_camareros">
+	<summary>
+Control dt_camareros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_id">
+	<summary>
+Control lbl_id.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_idEmpleado">
+	<summary>
+Control lbl_idEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_nombre">
+	<summary>
+Control lbl_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.txt_nombre">
+	<summary>
+Control txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_apellido">
+	<summary>
+Control lbl_apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.txt_apellido">
+	<summary>
+Control txt_apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_email">
+	<summary>
+Control lbl_email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.txt_email">
+	<summary>
+Control txt_email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_domicilio">
+	<summary>
+Control lbl_domicilio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.txt_domicilio">
+	<summary>
+Control txt_domicilio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_telefono">
+	<summary>
+Control lbl_telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.txt_telefono">
+	<summary>
+Control txt_telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_tipoEmpleado">
+	<summary>
+Control lbl_tipoEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.txt_tipoEmpleado">
+	<summary>
+Control txt_tipoEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_idTipoEmpleado">
+	<summary>
+Control lbl_idTipoEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.btn_asignarEmpleado">
+	<summary>
+Control btn_asignarEmpleado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.lbl_CronogramaEventos">
+	<summary>
+Control lbl_CronogramaEventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Txt_fechaDesde">
+	<summary>
+Control Txt_fechaDesde.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Btn_fechaDesde">
+	<summary>
+Control Btn_fechaDesde.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Calendar1">
+	<summary>
+Control Calendar1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Txt_fechaHasta">
+	<summary>
+Control Txt_fechaHasta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Btn_fechaHasta">
+	<summary>
+Control Btn_fechaHasta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Calendar2">
+	<summary>
+Control Calendar2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.Btn_buscar">
+	<summary>
+Control Btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.CronogramaEventos.dt_eventos">
+	<summary>
+Control dt_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Home.lbl_titulo">
+	<summary>
+Control lbl_titulo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Home.lbl_1Parrafo">
+	<summary>
+Control lbl_1Parrafo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Home.lbl_2Parrafo">
+	<summary>
+Control lbl_2Parrafo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Home.lbl_3Parrafo">
+	<summary>
+Control lbl_3Parrafo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Home.lbl_4Parrafo">
+	<summary>
+Control lbl_4Parrafo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Home.lbl_5Parrafo">
+	<summary>
+Control lbl_5Parrafo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.lbl_gestionFamilia">
+	<summary>
+Control lbl_gestionFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.lbl_familia">
+	<summary>
+Control lbl_familia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.cmb_Familia">
+	<summary>
+Control cmb_Familia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.btn_buscarFamilia">
+	<summary>
+Control btn_buscarFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.lbl_familiasAsignadas">
+	<summary>
+Control lbl_familiasAsignadas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.lbl_familiasDisponibles">
+	<summary>
+Control lbl_familiasDisponibles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.dt_FamiliasAsignadas">
+	<summary>
+Control dt_FamiliasAsignadas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.dt_FamiliasDisponibles">
+	<summary>
+Control dt_FamiliasDisponibles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.btn_QuitarFamilia">
+	<summary>
+Control btn_QuitarFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.btn_AsignarFamilia">
+	<summary>
+Control btn_AsignarFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.lbl_NuevaFamilia">
+	<summary>
+Control lbl_NuevaFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.txt_AltaFamilia">
+	<summary>
+Control txt_AltaFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.lbl_BajaFamilia">
+	<summary>
+Control lbl_BajaFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.cmb_BajaFamilia">
+	<summary>
+Control cmb_BajaFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.btn_AltaFamilia">
+	<summary>
+Control btn_AltaFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionFamilia.btn_BajaFamilia">
+	<summary>
+Control btn_BajaFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionDV.lbl_gestionDV">
+	<summary>
+Control lbl_gestionDV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionDV.btn_verificarDigitoVerificador">
+	<summary>
+Control btn_verificarDigitoVerificador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionDV.btn_recomponerDigitoVerificador">
+	<summary>
+Control btn_recomponerDigitoVerificador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionDV.lblMessage">
+	<summary>
+Control lblMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.Form2">
+	<summary>
+Control Form2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.li_Administrador">
+	<summary>
+Control li_Administrador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_Administracion">
+	<summary>
+Control lbl_Administracion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_GestionFamilia">
+	<summary>
+Control lbl_GestionFamilia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_GestionUsuario">
+	<summary>
+Control lbl_GestionUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_GestionBD">
+	<summary>
+Control lbl_GestionBD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_gestionBitacora">
+	<summary>
+Control lbl_gestionBitacora.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_gestionDV">
+	<summary>
+Control lbl_gestionDV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.li_Coordinador">
+	<summary>
+Control li_Coordinador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_Coordinacion">
+	<summary>
+Control lbl_Coordinacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_GestionClientes">
+	<summary>
+Control lbl_GestionClientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_solicitudPresupuestoMenu">
+	<summary>
+Control lbl_solicitudPresupuestoMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_registrarReserva">
+	<summary>
+Control lbl_registrarReserva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_CronogramaEventos">
+	<summary>
+Control lbl_CronogramaEventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_AsignacionPersonal">
+	<summary>
+Control lbl_AsignacionPersonal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.li_Cocinero">
+	<summary>
+Control li_Cocinero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_Cocina">
+	<summary>
+Control lbl_Cocina.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_PreparacionEntrega">
+	<summary>
+Control lbl_PreparacionEntrega.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_ElaboracionPlatos">
+	<summary>
+Control lbl_ElaboracionPlatos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_GestionBebidas">
+	<summary>
+Control lbl_GestionBebidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.li_Camarero">
+	<summary>
+Control li_Camarero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_Camarero">
+	<summary>
+Control lbl_Camarero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_registrarPerdidas">
+	<summary>
+Control lbl_registrarPerdidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_reposicionStock">
+	<summary>
+Control lbl_reposicionStock.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_bienvenido">
+	<summary>
+Control lbl_bienvenido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_Usuario">
+	<summary>
+Control lbl_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.btn_cerrarSesion">
+	<summary>
+Control btn_cerrarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.txt_usuario">
+	<summary>
+Control txt_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.txt_Contraseña">
+	<summary>
+Control txt_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.btnLogin">
+	<summary>
+Control btnLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.MainContent">
+	<summary>
+Control MainContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:GUI.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:GUI.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:GUI.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:GUI.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:GUI.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:GUI.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_registrarReserva">
+	<summary>
+Control lbl_registrarReserva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_NroEvento">
+	<summary>
+Control lbl_NroEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.txt_idevento">
+	<summary>
+Control txt_idevento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_NombreEvento">
+	<summary>
+Control lbl_NombreEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.Txt_NombreEvento">
+	<summary>
+Control Txt_NombreEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.Btn_buscar">
+	<summary>
+Control Btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_eventos">
+	<summary>
+Control lbl_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.dt_eventos">
+	<summary>
+Control dt_eventos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_reservaMin">
+	<summary>
+Control lbl_reservaMin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_cantReservaMin">
+	<summary>
+Control lbl_cantReservaMin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.lbl_reserva">
+	<summary>
+Control lbl_reserva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.txt_reserva">
+	<summary>
+Control txt_reserva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.btn_registrarReserva">
+	<summary>
+Control btn_registrarReserva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.RegistrarReserva.btn_CancelarEvento">
+	<summary>
+Control btn_CancelarEvento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:GUI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:GUI.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:GUI.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:GUI.gestionBebidas.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.cmb_bebida">
+	<summary>
+Control cmb_bebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.btn_buscarBebida">
+	<summary>
+Control btn_buscarBebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.txt_NombreBebida">
+	<summary>
+Control txt_NombreBebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.idBebida">
+	<summary>
+Control idBebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.txt_precio">
+	<summary>
+Control txt_precio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.lbl_ingredientesAsignados">
+	<summary>
+Control lbl_ingredientesAsignados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.dt_cateringAsignados">
+	<summary>
+Control dt_cateringAsignados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.cmb_catering">
+	<summary>
+Control cmb_catering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.btn_quitarCatering">
+	<summary>
+Control btn_quitarCatering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.btn_asignarCatering">
+	<summary>
+Control btn_asignarCatering.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.btn_AltaBebida">
+	<summary>
+Control btn_AltaBebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.btn_ModificarBebida">
+	<summary>
+Control btn_ModificarBebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.gestionBebidas.btn_bajabebida">
+	<summary>
+Control btn_bajabebida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_NroCliente">
+	<summary>
+Control lbl_NroCliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_idCliente">
+	<summary>
+Control lbl_idCliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_NombreCliente">
+	<summary>
+Control lbl_NombreCliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.Txt_NombreCliente">
+	<summary>
+Control Txt_NombreCliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_dni">
+	<summary>
+Control lbl_dni.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.txt_dni">
+	<summary>
+Control txt_dni.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_direccion">
+	<summary>
+Control lbl_direccion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.txt_direccion">
+	<summary>
+Control txt_direccion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_localidad">
+	<summary>
+Control lbl_localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.cmb_localidad">
+	<summary>
+Control cmb_localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_email">
+	<summary>
+Control lbl_email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.txt_email">
+	<summary>
+Control txt_email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.lbl_Telefono">
+	<summary>
+Control lbl_Telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.txt_telefono">
+	<summary>
+Control txt_telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.Btn_limpiar">
+	<summary>
+Control Btn_limpiar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.btn_Alta">
+	<summary>
+Control btn_Alta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.btn_baja">
+	<summary>
+Control btn_baja.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.btn_modificacion">
+	<summary>
+Control btn_modificacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.GestionCliente.dt_Clientes">
+	<summary>
+Control dt_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

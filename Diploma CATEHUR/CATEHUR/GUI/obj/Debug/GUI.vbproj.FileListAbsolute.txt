@@ -1,0 +1,232 @@
+C:\Users\maria\Desktop\CD\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\CD\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\CD\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\CD\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.FrmAsignacionPersonal.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.FrmCronogramaEventos.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.FrmPantallaPrincipal.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_Presupuesto.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionarEvento.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBackup.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBitacora.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionFamilia.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPatente.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionUsuario.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_RestoreBackUP.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionIdioma.resources
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\GUI.exe
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\GUI.pdb
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\GUI.xml
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\BE.dll
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\BLL.dll
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\DAL.dll
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\Servicios.dll
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\BE.pdb
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\BE.xml
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\BLL.pdb
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\BLL.xml
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\DAL.pdb
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\DAL.xml
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\Servicios.pdb
+C:\Users\maria\Desktop\CATEHUR\GUI\bin\Debug\Servicios.xml
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.FrmAsignacionPersonal.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.FrmCronogramaEventos.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.FrmPantallaPrincipal.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_Presupuesto.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionarEvento.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBackup.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBitacora.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionFamilia.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPatente.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionUsuario.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_RestoreBackUP.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionIdioma.resources
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\GUI.exe
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\GUI.pdb
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\GUI.xml
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\BE.dll
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\BLL.dll
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\DAL.dll
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\Servicios.dll
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\BE.pdb
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\BE.xml
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\BLL.pdb
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\BLL.xml
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\DAL.pdb
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\DAL.xml
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\Servicios.pdb
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\bin\Debug\Servicios.xml
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\4.0\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\GUI.exe
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\GUI.pdb
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\GUI.xml
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\BE.dll
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\BLL.dll
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\DAL.dll
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\Servicios.dll
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\BE.pdb
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\BE.xml
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\BLL.pdb
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\BLL.xml
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\DAL.pdb
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\DAL.xml
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\Servicios.pdb
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\bin\Debug\Servicios.xml
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.FrmAsignacionPersonal.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.FrmCronogramaEventos.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.FrmPantallaPrincipal.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_Presupuesto.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionarEvento.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBackup.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBitacora.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionFamilia.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPatente.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionUsuario.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_RestoreBackUP.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionIdioma.resources
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\prueba\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.exe
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.xml
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.dll
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.dll
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.dll
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.dll
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.xml
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.xml
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.xml
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.pdb
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.xml
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmAsignacionPersonal.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmCronogramaEventos.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmPantallaPrincipal.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_Presupuesto.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionarEvento.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBackup.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBitacora.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionFamilia.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPatente.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionUsuario.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RestoreBackUP.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionIdioma.resources
+C:\Users\maria\Desktop\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\Diploma 2da Entrega\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\Diploma 2da Entrega\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\Diploma 2da Entrega\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\Diploma 2da Entrega\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmPantallaPrincipal.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionCliente.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPlato.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_Presupuesto.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionMenu.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBackup.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBitacora.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionFamilia.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPatente.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionUsuario.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RestoreBackUP.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionIdioma.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.exe
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RegistroReserva.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_CronogramaEventos.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_AsignacionPersonal.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_PreparacionEntrega.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RegistrarPerdidas.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_ReposicionStock.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.exe.config
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.exe
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\GUI.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BE.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\BLL.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\DAL.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\bin\Debug\Servicios.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_AsignacionPersonal.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.FrmPantallaPrincipal.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_gestionBebidas.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_PreparacionEntrega.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RegistrarPerdidas.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_ReposicionStock.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_CronogramaEventos.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionCliente.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionPlato.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_Presupuesto.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RegistroReserva.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionMenu.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_bloqueoUsuario.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_desbloqueoUsuario.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBackup.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionBitacora.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionFamilia.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_GestionUsuario.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_RestoreBackUP.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.Frm_SeleccionIdioma.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.exe
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\GUI\obj\Debug\GUI.pdb
