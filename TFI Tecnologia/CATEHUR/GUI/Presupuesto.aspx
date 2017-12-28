@@ -84,8 +84,8 @@
 <!-- Modal -->
 
     
-<div class="modal" id="myModal">
-  <div class="modal-dialog" role="document">
+<div class="modal" id="myModal" style="overflow:scroll;">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Modal title</h5>
@@ -94,27 +94,58 @@
         </button>
       </div>
       <div class="modal-body">
-           <table class="table-hover" style ="border-top: 0px;">
-
-                                <tbody>
-                                  <tr>
-                                    <td><asp:Label ID="lbl_Entrada" runat="server" Text="Entrada"></asp:Label></td>
-                                    <td><asp:Label ID="lbl_PlatoPrincipal" runat="server" Text="Plato Principal"></asp:Label></td>
-                                    <td><asp:Label ID="lbl_postre" runat="server" Text="Postre"></asp:Label></td>
-                                    <td><asp:Label ID="lbl_bebida" runat="server" Text="Bebida"></asp:Label></td>
-
-                                  </tr>
-                                 <tr>
-                                    <td><asp:CheckBoxList ID="Chk_Entrada" runat="server" CssClass="radio inline"></asp:CheckBoxList></td>
-                                    <td><asp:CheckBoxList ID="chk_PlatoPrincipal" runat="server" CssClass="radio inline"></asp:CheckBoxList></td> 
-                                    <td><asp:CheckBoxList ID="chk_Postre" runat="server" CssClass="radio inline"></asp:CheckBoxList></td> 
-                                    <td><asp:CheckBoxList ID="chk_bebida" runat="server" CssClass="radio inline"></asp:CheckBoxList></td> 
- 
-                                 </tr>
-                         
-                                </tbody>
-          </table>
-
+          <table class="table table-hover">
+          <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_Entrada" runat="server" Text="Entrada"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="Chk_Entrada" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                  </tr>
+          </tbody>
+        </table>
+        <table class="table table-hover">
+          <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_PlatoPrincipal" runat="server" Text="Plato Principal"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="chk_PlatoPrincipal" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                  </tr>
+          </tbody>
+        </table>
+        <table class="table table-hover">
+        <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_postre" runat="server" Text="Postre"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="chk_Postre" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                  </tr>
+          </tbody>
+        </table>              
+        <table class="table table-hover">
+          <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_bebida" runat="server" Text="Bebida"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="chk_bebida" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                 </tr>
+          </tbody>
+        </table>              
+              
+              
+               
+          
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>

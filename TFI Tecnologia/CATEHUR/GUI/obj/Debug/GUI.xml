@@ -462,33 +462,17 @@ Control lbl_Entrada.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:GUI.Presupuesto.lbl_PlatoPrincipal">
-	<summary>
-Control lbl_PlatoPrincipal.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GUI.Presupuesto.lbl_postre">
-	<summary>
-Control lbl_postre.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GUI.Presupuesto.lbl_bebida">
-	<summary>
-Control lbl_bebida.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member><member name="F:GUI.Presupuesto.Chk_Entrada">
 	<summary>
 Control Chk_Entrada.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_PlatoPrincipal">
+	<summary>
+Control lbl_PlatoPrincipal.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -502,9 +486,25 @@ Control chk_PlatoPrincipal.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:GUI.Presupuesto.lbl_postre">
+	<summary>
+Control lbl_postre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:GUI.Presupuesto.chk_Postre">
 	<summary>
 Control chk_Postre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Presupuesto.lbl_bebida">
+	<summary>
+Control lbl_bebida.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -1849,6 +1849,54 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:GUI.Site.btnLogin">
 	<summary>
 Control btnLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.li_Idioma">
+	<summary>
+Control li_Idioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_idioma">
+	<summary>
+Control lbl_idioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.linkEspañol">
+	<summary>
+Control linkEspañol.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_Español">
+	<summary>
+Control lbl_Español.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.linkEnglish">
+	<summary>
+Control linkEnglish.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.Site.lbl_English">
+	<summary>
+Control lbl_English.
 </summary>
 	<remarks>
 Campo generado automáticamente.

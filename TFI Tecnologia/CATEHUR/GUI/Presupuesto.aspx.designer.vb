@@ -257,33 +257,6 @@ Partial Public Class Presupuesto
     Protected WithEvents lbl_Entrada As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control lbl_PlatoPrincipal.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lbl_PlatoPrincipal As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lbl_postre.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lbl_postre As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lbl_bebida.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lbl_bebida As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''Control Chk_Entrada.
     '''</summary>
     '''<remarks>
@@ -291,6 +264,15 @@ Partial Public Class Presupuesto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Chk_Entrada As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''Control lbl_PlatoPrincipal.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_PlatoPrincipal As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control chk_PlatoPrincipal.
@@ -302,6 +284,15 @@ Partial Public Class Presupuesto
     Protected WithEvents chk_PlatoPrincipal As Global.System.Web.UI.WebControls.CheckBoxList
 
     '''<summary>
+    '''Control lbl_postre.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_postre As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control chk_Postre.
     '''</summary>
     '''<remarks>
@@ -309,6 +300,15 @@ Partial Public Class Presupuesto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents chk_Postre As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''Control lbl_bebida.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_bebida As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control chk_bebida.

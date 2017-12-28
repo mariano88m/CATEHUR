@@ -102,7 +102,7 @@
     <Content Include="Content\img\04.png" />
     <Content Include="Content\img\05.png" />
     <Content Include="Content\img\ar.png" />
-    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\logoC.png" />
     <Content Include="Content\img\Menu.png" />
     <Content Include="Content\img\uk.png" />
     <Content Include="Content\js\contact_me.js" />

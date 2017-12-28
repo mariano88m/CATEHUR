@@ -83,7 +83,6 @@ D:\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateResource.Cach
 D:\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.dll
 D:\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.xml
 D:\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.pdb
-D:\CATEHUR-git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.dll.config
 D:\CATEHUR-git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.dll
 D:\CATEHUR-git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.pdb
 D:\CATEHUR-git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.xml

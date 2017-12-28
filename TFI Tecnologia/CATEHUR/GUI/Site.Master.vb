@@ -278,4 +278,16 @@ Public Class Site
         Response.Redirect("home.aspx")
 
     End Sub
+
+    Private Sub linkEnglish_ServerClick(sender As Object, e As EventArgs) Handles linkEnglish.ServerClick
+        GUI.Site.oSujetoConcreto.SetearIdioma("English")
+        GUI.Site.oSujetoConcreto.Notify()
+        UpdateState(GUI.Site.oSujetoConcreto)
+    End Sub
+
+    Private Sub linkEspañol_ServerClick(sender As Object, e As EventArgs) Handles linkEspañol.ServerClick
+        GUI.Site.oSujetoConcreto.SetearIdioma("Español")
+        GUI.Site.oSujetoConcreto.Notify()
+        UpdateState(GUI.Site.oSujetoConcreto)
+    End Sub
 End Class

@@ -284,6 +284,60 @@ Partial Public Class Site
     Protected WithEvents btnLogin As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''Control li_Idioma.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents li_Idioma As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''Control lbl_idioma.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_idioma As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control linkEspañol.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents linkEspañol As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''Control lbl_Español.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_Español As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control linkEnglish.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents linkEnglish As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''Control lbl_English.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_English As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control MainContent.
     '''</summary>
     '''<remarks>
