@@ -11,11 +11,8 @@ Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
 
-
 Imports BE
 Imports BLL
-
-
 
 Public Class Presupuesto
     Inherits System.Web.UI.Page
@@ -47,7 +44,6 @@ Public Class Presupuesto
                 GUI.Site.oSujetoConcreto.Subscribe(Me)
 
                 'UpdateState(GUI.Site.oSujetoConcreto)
-
 
                 lstCatering = gestorCatering.TraerTodosLosCatering(GUI.Site.ConfiguracionBase)
                 rd_catering.DataSource = lstCatering
@@ -261,7 +257,7 @@ Public Class Presupuesto
     Private Sub btn_GenerarPresupuesto_Click(sender As Object, e As EventArgs) Handles btn_GenerarPresupuesto.Click
         ModalCatering.Value = ""
         Try
-            unEvento.PrecioTotalEvento = (unEvento.PrecioTotalEvento * CInt(txt_cantPersonas.Text)) * 1.3500000000000001
+            unEvento.PrecioTotalEvento = (unEvento.PrecioTotalEvento * CInt(txt_cantPersonas.Text)) * 1.35
             unEvento.CantPersonas = CInt(txt_cantPersonas.Text)
             unEvento.unCliente.IdCliente = cmb_cliente.SelectedValue
             '   unEvento.unCliente.NombreCliente = cmb_cliente.SelectedItem(0)
@@ -337,7 +333,7 @@ Public Class Presupuesto
                     Next
 
                     cadenaFinal += "<h5> Precio Total de las bebidas:" + CStr(precioTotalBebida) + "</h5>"
-                    cadenaFinal += "<h5> Servicio de Catering:" + CStr(unEvento.PrecioTotalEvento * 0.34999999999999998) + "</h5>"
+                    cadenaFinal += "<h5> Servicio de Catering:" + CStr(unEvento.PrecioTotalEvento * 0.35) + "</h5>"
                     cadenaFinal += "<h3> Precio Total del Evento:" + CStr(unEvento.PrecioTotalEvento) + "</h3>"
 
                     'Assign Html content in a string to write in PDF 
@@ -376,7 +372,11 @@ Public Class Presupuesto
                 Una_Bitacora.Accion = "Generar Presupuesto"
                 Una_Bitacora.InfoAccion = "Sin Disponibilidad"
                 gestorBitacora.GrabarBitacora(Una_Bitacora, GUI.Site.ConfiguracionBase)
-                MsgBox("No hay disponibilidad en la fecha seleccionada")
+
+
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('No hay disponibilidad en la fecha seleccionada');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
             End If
         Catch ex As Exception

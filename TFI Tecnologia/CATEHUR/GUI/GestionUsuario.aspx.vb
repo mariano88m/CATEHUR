@@ -129,13 +129,29 @@ Public Class GestionUsuario
 
                 Next
 
-                MsgBox("Alta OK")
+
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Alta OK');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
+
             Else
-                MsgBox("Un plato debe tener ingredientes y debe estar asignado un tipo de catering")
+
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Un plato debe tener ingredientes y debe estar asignado un tipo de catering');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
+
             End If
 
         Catch ex As Exception
-            MsgBox("Alta Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Alta Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
         End Try
 
 
@@ -147,10 +163,16 @@ Public Class GestionUsuario
         Try
             unUsuario.Username = txt_NombreUsuario.Text
             gestorUsuario.EliminarUsuario(unUsuario.Username, GUI.Site.ConfiguracionBase)
-            MsgBox("Baja OK")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Baja OK');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
         Catch ex As Exception
-            MsgBox("Baja Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Baja Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
         End Try
         
@@ -190,13 +212,24 @@ Public Class GestionUsuario
 
                 Next
 
-                MsgBox("Modificacion OK")
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Modificacion OK');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
             Else
-                MsgBox("Debe asignarse un permiso")
+
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Debe asignarse un permiso');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
             End If
 
         Catch ex As Exception
-            MsgBox("Modificacion Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Modificacion Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
         End Try
 
 

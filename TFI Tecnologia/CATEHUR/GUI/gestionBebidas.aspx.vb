@@ -179,11 +179,18 @@ Public Class gestionBebidas
 
             Next
 
-            MsgBox("Alta OK")
 
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Alta OK');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
         Catch ex As Exception
-            MsgBox("Alta Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Alta Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
         End Try
     End Sub
 
@@ -202,10 +209,18 @@ Public Class gestionBebidas
 
             gestorBebida.ModificarBebida(unaBebida, GUI.Site.ConfiguracionBase)
 
-            MsgBox("Modificar OK")
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Modificar OK');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
 
         Catch ex As Exception
-            MsgBox("Modificar Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Modificar Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
         End Try
     End Sub
 
@@ -224,10 +239,18 @@ Public Class gestionBebidas
 
             gestorBebida.BajaBebida(unaBebida, GUI.Site.ConfiguracionBase)
 
-            MsgBox("Baja OK")
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Baja OK');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
 
         Catch ex As Exception
-            MsgBox("Baja Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Baja Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
         End Try
     End Sub
 

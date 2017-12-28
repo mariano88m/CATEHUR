@@ -374,13 +374,22 @@ Public Class ElaboracionPlatos
 
                 Next
 
-                MsgBox("Alta OK")
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Alta OK');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
             Else
-                MsgBox("Un plato debe tener ingredientes y debe estar asignado un tipo de catering")
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Un plato debe tener ingredientes y debe estar asignado un tipo de catering');" & vbCr & vbLf & "</script>"
+
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
             End If
 
         Catch ex As Exception
-            MsgBox("Alta Error")
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Alta Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
         End Try
 
 
@@ -414,11 +423,18 @@ Public Class ElaboracionPlatos
 
             gestorPlato.ModificarPlato(unPlato, GUI.Site.ConfiguracionBase)
 
-            MsgBox("Modificacion OK")
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Modificacion OK');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
 
         Catch ex As Exception
-            MsgBox("Modificacion Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Modificacion Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+
         End Try
 
 
@@ -454,10 +470,16 @@ Public Class ElaboracionPlatos
 
             gestorPlato.BajaPlato(unPlato, GUI.Site.ConfiguracionBase)
 
-            MsgBox("baja OK")
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Baja OK');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
         Catch ex As Exception
-            MsgBox("baja Error")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Baja Error');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
         End Try
 
 

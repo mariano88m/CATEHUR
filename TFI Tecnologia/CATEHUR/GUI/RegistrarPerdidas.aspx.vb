@@ -30,7 +30,11 @@ Public Class RegistrarPerdidas
         Try
 
             gestorVajilla.RegistrarPerdida(CInt(cmb_Elemento.SelectedValue), CInt(txt_CantElemento.Text), GUI.Site.ConfiguracionBase)
-            MsgBox("Perdida Registrada")
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Perdida Registrada');" & vbCr & vbLf & "</script>"
+
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
         Catch ex As Exception
 
         End Try
