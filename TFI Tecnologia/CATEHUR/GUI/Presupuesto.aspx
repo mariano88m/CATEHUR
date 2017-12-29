@@ -12,7 +12,9 @@
 
     </script>
     <h2><asp:Label ID="lbl_SolicitudPresupuesto" runat="server" Text="Solicitud de Presupuesto"></asp:Label></h2>
-     <table class ="table-hover"  style ="border-top: 5px solid white;">
+     
+        
+        <table class ="table-hover"  style ="border-top: 5px solid white;">
 
 
     <tbody>
@@ -33,10 +35,25 @@
         <td><asp:DropDownList ID="cmb_localidad" runat="server" class="form-control input-sm"></asp:DropDownList></td>
       </tr>
       <tr>
-        <td><asp:Label ID="lbl_TipoCatering" runat="server" Text="Tipo de Catering"></asp:Label></td>
-        <td><asp:RadioButtonList ID="rd_catering" runat="server" CssClass="radio inline"></asp:RadioButtonList></td>
-        <td><asp:Label ID="lbl_PrecioPersona" runat="server" Text="Precio por Persona"></asp:Label></td>
-        <td><asp:Label ID="lbl_PrecioXPersona" runat="server" Text=""></asp:Label></td>
+          <td></td>
+      <td>
+          <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header"><asp:Label ID="lbl_TipoCatering" runat="server" Text="Tipo de Catering"></asp:Label></div>
+                <div class="card-body text-primary">
+
+                    <p class="card-text"><asp:RadioButtonList ID="rd_catering" runat="server" CssClass="radio inline"></asp:RadioButtonList></p>
+                    <p class="card-text"><asp:Label ID="lbl_PrecioPersona" runat="server" Text="Precio por Persona"></asp:Label><asp:Label ID="lbl_PrecioXPersona" runat="server" Text=""></asp:Label></p>
+                </div>
+         </div>
+          
+          
+            
+        </td>
+        
+        <td></td>
+        <td></td>
+
+
       </tr>
       <tr>
           <td></td>
