@@ -89,10 +89,17 @@
       <tr>
         <td style ="padding-bottom:2em; padding-top:2em;"><asp:Button Class="btn btn-default btn-sm" ID="Btn_Limpiar" runat="server" Text="Limpiar" /></td>
         <td style ="padding-bottom:2em; padding-top:2em;"><asp:Button Class="btn btn-success btn-sm " ID="btn_GenerarPresupuesto" runat="server" Text="Generar Presupuesto" /></td>
-      </tr>
+    
+          
+          
+          
+       </tr>
     </tbody>
   </table>
-
+        <div class="alert alert-dismissible alert-success">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+</div>
 
       <footer>
         <p>© CATEHUR</p>
@@ -173,5 +180,10 @@
 </div>
 
  </div>
+
+
+
+
+
 
 </asp:Content>

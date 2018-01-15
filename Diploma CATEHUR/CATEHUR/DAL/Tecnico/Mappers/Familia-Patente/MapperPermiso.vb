@@ -51,7 +51,7 @@ Public Class MapperPermiso
         Dim unaconexion As New Conexion(Conexion.MotoresDisponibles.SqlServerClient)
         unaconexion.ConexionIniciar(LaConfig)
 
-        Dim resultado As IDataReader = unaconexion.Ejecutar("select b.id, u.cod_hijo, b.descripcion from per_per u inner join permiso a on a.id = u.cod_padre inner join permiso b on b.id = u.cod_hijo where cod_Padre = @ID and cod_padre <> cod_hijo", False, IConexion.TipoRetorno.Tupla, unBE.ID).ResultadoConectado
+        Dim resultado As IDataReader = unaconexion.Ejecutar("select b.id, u.cod_hijo, b.descripcion from per_per u inner join permiso a on a.id = u.cod_padre inner join permiso b on b.id = u.cod_hijo where b.id = @ID and cod_padre <> cod_hijo", False, IConexion.TipoRetorno.Tupla, unBE.ID).ResultadoConectado
 
         lstPatente = DataReadObjeto.RealizarMapeo(Of PatenteEntity)(resultado)
 
@@ -72,15 +72,19 @@ Public Class MapperPermiso
         Dim resultado As IDataReader = unaconexion.Ejecutar("select b.id, u.cod_padre, u.cod_hijo, b.descripcion, (Select count(*)From Per_Per Where u.cod_hijo = Per_Per.Cod_Padre and Per_Per.Cod_Padre = Per_Per.Cod_Hijo) from per_per u inner join permiso a on a.id = u.cod_padre inner join permiso b on b.id = u.cod_hijo where cod_Padre = @ID and cod_padre <> cod_hijo", False, IConexion.TipoRetorno.Tupla, unBE.ID).ResultadoConectado
 
         lstFamilia = DataReadObjeto.RealizarMapeo(Of FamiliaEntity)(resultado)
-
-        For Each unaFamilia As FamiliaEntity In lstFamilia
-            If DameFamilias(unaFamilia, LaConfig) Is Nothing Then
-                unBE.AgregarPermiso(DamePatentes(unaFamilia, LaConfig))
-            Else
-                unBE.AgregarPermiso(DameFamilias(unaFamilia, LaConfig))
-            End If
-        Next
         unaconexion.ConexionFinalizar()
+
+
+        If lstFamilia.Count > 0 Then
+            For Each unaFamilia As FamiliaEntity In lstFamilia
+
+                unBE.AgregarPermiso(DameFamilias(unaFamilia, LaConfig))
+            Next
+
+        Else
+            'unBE.AgregarPermiso(unBE)
+        End If
+
 
         Return unBE
     End Function

@@ -19,15 +19,14 @@ Public Class Site
     Public Shared UsuarioEntity As New UsuarioEntity
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not IsPostBack Then
 
-        If Not Session("UsuarioLogueado") Is Nothing Then
+            If Not Session("UsuarioLogueado") Is Nothing Then
 
-            unUsuario = DirectCast(Session("UsuarioLogueado"), UsuarioEntity)
+                unUsuario = DirectCast(Session("UsuarioLogueado"), UsuarioEntity)
 
-            lbl_Usuario.Text = " " + unUsuario.Username
-            btn_cerrarSesion.Visible = True
-
-            If Not IsPostBack Then
+                lbl_Usuario.Text = " " + unUsuario.Username
+                btn_cerrarSesion.Visible = True
 
                 txt_usuario.Visible = False
                 txt_Contraseña.Visible = False
@@ -37,146 +36,162 @@ Public Class Site
                 GUI.Site.oSujetoConcreto.Notify()
                 UpdateState(GUI.Site.oSujetoConcreto)
 
-            Else
-
             End If
 
-            For Each unPermisoHijo As FamiliaEntity In unUsuario.Permisos
-                If unPermisoHijo.Descripcion = "Administrador" Then
-                    lbl_GestionUsuario.Visible = True
-                    lbl_GestionFamilia.Visible = True
-                    lbl_GestionBD.Visible = True
-                    lbl_gestionBitacora.Visible = True
-                    lbl_gestionDV.Visible = True
-                    li_Administrador.Visible = True
-                    lbl_Administracion.Visible = True
-                End If
 
+
+            For Each unPermisoHijo As FamiliaEntity In unUsuario.Permisos
+
+                Try
+                    recorrerPermisos(unPermisoHijo)
+
+                Catch ex As Exception
+
+                End Try
+
+            Next
+
+
+
+
+        Else
+
+        End If
+    End Sub
+
+    Public Sub recorrerPermisos(Permisos As FamiliaEntity)
+        If Permisos.elements.Count > 0 Then
+
+            For Each unPermisoHijo As FamiliaEntity In Permisos.elements
+                If Permisos.Descripcion = unPermisoHijo.Descripcion Then
+                    Exit For
+                End If
 
                 If unPermisoHijo.Descripcion = "Gestion Familia" Then
                     lbl_GestionFamilia.Visible = True
                     li_Administrador.Visible = True
+                    dr_GestionFamilia.Visible = True
                     lbl_Administracion.Visible = True
                 End If
                 If unPermisoHijo.Descripcion = "Gestion Usuario" Then
                     lbl_GestionUsuario.Visible = True
                     li_Administrador.Visible = True
                     lbl_Administracion.Visible = True
+                    dr_GestionUsuario.Visible = True
+
                 End If
                 If unPermisoHijo.Descripcion = "Gestion Backup" Then
                     lbl_GestionBD.Visible = True
                     li_Administrador.Visible = True
                     lbl_Administracion.Visible = True
+                    dr_GestionBackup.Visible = True
+
                 End If
                 If unPermisoHijo.Descripcion = "Buscar Bitacora" Then
                     lbl_gestionBitacora.Visible = True
                     li_Administrador.Visible = True
                     lbl_Administracion.Visible = True
+                    dr_GestionBitacora.Visible = True
+
                 End If
                 If unPermisoHijo.Descripcion = "Chequear DV" Then
                     lbl_gestionDV.Visible = True
                     li_Administrador.Visible = True
                     lbl_Administracion.Visible = True
-                End If
+                    dr_GestionDV.Visible = True
 
-            Next
-            For Each unPermisoHijo As FamiliaEntity In unUsuario.Permisos
-                If unPermisoHijo.Descripcion = "Coordinador" Then
-                    lbl_GestionClientes.Visible = True
-                    lbl_solicitudPresupuestoMenu.Visible = True
-                    lbl_CronogramaEventos.Visible = True
-                    lbl_registrarReserva.Visible = True
-                    lbl_AsignacionPersonal.Visible = True
-                    lbl_PreparacionEntrega.Visible = True
-                    li_Coordinador.Visible = True
-                    lbl_Coordinacion.Visible = True
                 End If
 
                 If unPermisoHijo.Descripcion = "Gestion Cliente" Then
                     lbl_GestionClientes.Visible = True
                     li_Coordinador.Visible = True
                     lbl_Coordinacion.Visible = True
+                    dr_GestionClientes.Visible = True
+
                 End If
-                If unPermisoHijo.Descripcion = "Gestion Evento" Then
+
+                'Solicitud Presupuesto
+                If unPermisoHijo.Descripcion = "Solicitud Presupuesto" Then
                     lbl_solicitudPresupuestoMenu.Visible = True
+                    li_Coordinador.Visible = True
+                    lbl_Coordinacion.Visible = True
+                    dr_presupuesto.Visible = True
+                End If
+
+                'Ver Cronograma Eventos
+                If unPermisoHijo.Descripcion = "Ver Cronograma Eventos" Then
                     lbl_CronogramaEventos.Visible = True
+                    li_Coordinador.Visible = True
+                    lbl_Coordinacion.Visible = True
+                    dr_CronogramaEventos.Visible = True
+                End If
+
+                'Registrar Reserva
+                If unPermisoHijo.Descripcion = "Registrar Reserva" Then
                     lbl_registrarReserva.Visible = True
                     li_Coordinador.Visible = True
                     lbl_Coordinacion.Visible = True
+                    dr_RegistrarReserva.Visible = True
                 End If
+
                 If unPermisoHijo.Descripcion = "Asignacion Personal" Then
                     lbl_AsignacionPersonal.Visible = True
                     li_Coordinador.Visible = True
                     lbl_Coordinacion.Visible = True
+                    dr_AsignarPersonal.Visible = True
                 End If
-                If unPermisoHijo.Descripcion = "Gestion Almacenamiento" Then
+
+                If unPermisoHijo.Descripcion = "Preparacion de Entrega" Then
                     lbl_PreparacionEntrega.Visible = True
-                    li_Coordinador.Visible = True
+                    li_Cocinero.Visible = True
                     lbl_Coordinacion.Visible = True
+                    lbl_Cocina.Visible = True
+                    dr_PreparacionEntrega.Visible = True
+
                 End If
+                If unPermisoHijo.Descripcion = "Elaboracion de Platos" Then
+                    lbl_ElaboracionPlatos.Visible = True
+                    li_Cocinero.Visible = True
+                    lbl_Coordinacion.Visible = True
+                    lbl_Cocina.Visible = True
+                    dr_ElaboracionPlatos.Visible = True
+
+                End If
+                If unPermisoHijo.Descripcion = "Gestion bebidas" Then
+                    lbl_GestionBebidas.Visible = True
+                    li_Cocinero.Visible = True
+                    lbl_Coordinacion.Visible = True
+                    lbl_Cocina.Visible = True
+                    dr_GestionBebidas.Visible = True
+
+                End If
+
+                If unPermisoHijo.Descripcion = "Reposicion de Stock" Then
+                    li_Camarero.Visible = True
+                    lbl_Camarero.Visible = True
+                    lbl_reposicionStock.Visible = True
+                    dr_reposicionStock.Visible = True
+                End If
+                If unPermisoHijo.Descripcion = "Registro de Perdidas" Then
+                    li_Camarero.Visible = True
+                    lbl_Camarero.Visible = True
+                    lbl_registrarPerdidas.Visible = True
+                    dr_RegistrarPerdidas.Visible = True
+
+                End If
+
+                recorrerPermisos(unPermisoHijo)
+
             Next
+        Else
+
         End If
 
-        For Each unPermisoHijo As FamiliaEntity In unUsuario.Permisos
-            If unPermisoHijo.Descripcion = "Cocinero" Then
-                lbl_PreparacionEntrega.Visible = True
-                lbl_ElaboracionPlatos.Visible = True
-                lbl_GestionBebidas.Visible = True
-                li_Cocinero.Visible = True
-                lbl_Coordinacion.Visible = True
-                lbl_cocina.Visible = True
-            End If
-
-            If unPermisoHijo.Descripcion = "Preparacion de Entrega" Then
-                lbl_PreparacionEntrega.Visible = True
-                li_Cocinero.Visible = True
-                lbl_Coordinacion.Visible = True
-                lbl_cocina.Visible = True
-
-            End If
-            If unPermisoHijo.Descripcion = "Elaboracion de Platos" Then
-                lbl_ElaboracionPlatos.Visible = True
-                li_Cocinero.Visible = True
-                lbl_Coordinacion.Visible = True
-                lbl_cocina.Visible = True
-
-            End If
-            If unPermisoHijo.Descripcion = "Gestion bebidas" Then
-                lbl_GestionBebidas.Visible = True
-                li_Cocinero.Visible = True
-                lbl_Coordinacion.Visible = True
-                lbl_cocina.Visible = True
-
-            End If
-        Next
-
-        For Each unPermisoHijo As FamiliaEntity In unUsuario.Permisos
-            If unPermisoHijo.Descripcion = "Camarero" Then
-                li_Camarero.Visible = True
-                lbl_Camarero.Visible = True
-                lbl_reposicionStock.Visible = True
-                lbl_registrarPerdidas.Visible = True
-
-            End If
-            If unPermisoHijo.Descripcion = "Reposicion de Stock" Then
-                li_Camarero.Visible = True
-                lbl_Camarero.Visible = True
-                lbl_reposicionStock.Visible = True
-            End If
-            If unPermisoHijo.Descripcion = "Registro de Perdidas" Then
-                li_Camarero.Visible = True
-                lbl_Camarero.Visible = True
-                lbl_registrarPerdidas.Visible = True
-            End If
-
-        Next
-
-
-
-
-
-
     End Sub
+
+
+
+
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
 
         Dim sr As New StreamReader("D:\Configuracion.xml")

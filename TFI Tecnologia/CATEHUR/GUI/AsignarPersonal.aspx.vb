@@ -109,6 +109,8 @@ Public Class AsignarPersonal
         Dim lstEmpleados As New List(Of EmpleadoEntity)
         Dim DTEmpleados As New DataTable
 
+
+
         lstEmpleados = gestorEmpleado.TraerEmpleadosXEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase)
 
         DTEmpleados.Columns.Add(New DataColumn("IdEmpleado", Type.GetType("System.Int32")))

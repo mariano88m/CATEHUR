@@ -357,13 +357,14 @@ Public Class Presupuesto
                     Response.Flush()
 
                     Response.[End]()
+                    Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Evento Creado');" & vbCr & vbLf & "</script>"
+
+                    ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
                 Catch ex As Exception
                     Response.Write(ex.ToString())
                 End Try
 
-                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Evento Creado');" & vbCr & vbLf & "</script>"
-
-                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+                
             Else
 
                 Una_Bitacora.IdUsuario = GUI.Site.UsuarioEntity.IdUsuario
@@ -375,13 +376,12 @@ Public Class Presupuesto
 
 
                 Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('No hay disponibilidad en la fecha seleccionada');" & vbCr & vbLf & "</script>"
-
                 ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
             End If
         Catch ex As Exception
-            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Error');" & vbCr & vbLf & "</script>"
 
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Error');" & vbCr & vbLf & "</script>"
             ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
 
         End Try

@@ -3,11 +3,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="container">
+    <h2><asp:Label ID="lbl_AsignarPersonal" runat="server" Text="Asignar Personal"></asp:Label></h2>
+
+<div class="card border-secondary mb-3">
+  <div class="card-header"><asp:Label ID="lbl_eventos" runat="server" Text="Eventos"></asp:Label></div>
+  <div class="card-body text-secondary">
+    <h4 class="card-title"></h4>
+    <p>
+
    <table class="table-hover" style ="border-top: 0px;">
-           <h2><asp:Label ID="lbl_AsignarPersonal" runat="server" Text="Asignar Personal"></asp:Label></h2>
+           
                                 <tbody>
                                   <tr>
-                                     <td style="padding-top:2em;" class="auto-style2"><asp:Label ID="lbl_eventos" runat="server" Text="Eventos"></asp:Label></td>
+                                     <td style="padding-top:2em;" class="auto-style2"></td>
                                        <td class="auto-style3">
                                         <asp:GridView ID="dt_eventos" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
                                             <AlternatingRowStyle BackColor="White" />
@@ -16,10 +24,10 @@
                                             </Columns>
                                             <EditRowStyle BackColor="#2461BF" />
                                             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                                            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="Blue" />
                                             <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
                                             <RowStyle BackColor="#EFF3FB" />
-                                            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="Red" />
                                             <SortedAscendingCellStyle BackColor="#F5F7FB" />
                                             <SortedAscendingHeaderStyle BackColor="#6D95E1" />
                                             <SortedDescendingCellStyle BackColor="#E9EBEF" />
@@ -27,8 +35,26 @@
                                         </asp:GridView>
                                     </td>
                                  </tr>
-                                 <tr>
-                                    <td style="padding-top:2em;" class="auto-style2"><asp:Label ID="lbl_ListaEmpleados" runat="server" Text="Lista de Empleados"></asp:Label></td>
+                                                 </tbody>
+                              </table>  
+    
+
+    </p>
+        </div>
+</div>
+
+
+                                 
+<div class="card border-secondary mb-3">
+  <div class="card-header"><asp:Label ID="lbl_ListaEmpleados" runat="server" Text="Lista de Empleados"></asp:Label></div>
+  <div class="card-body text-secondary">
+    <h4 class="card-title"></h4>
+    <p>
+   <table class="table-hover" style ="border-top: 0px;">
+           
+                                <tbody>
+                                  <tr>
+                                    <td style="padding-top:2em;" class="auto-style2"></td>
                                      <td class="auto-style3">
                                         <asp:GridView ID="dt_empleados" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
                                             <AlternatingRowStyle BackColor="White" />
@@ -37,10 +63,10 @@
                                             </Columns>
                                             <EditRowStyle BackColor="#2461BF" />
                                             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                                            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="Blue" />
                                             <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
                                             <RowStyle BackColor="#EFF3FB" />
-                                            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="Red" />
                                             <SortedAscendingCellStyle BackColor="#F5F7FB" />
                                             <SortedAscendingHeaderStyle BackColor="#6D95E1" />
                                             <SortedDescendingCellStyle BackColor="#E9EBEF" />
@@ -54,6 +80,11 @@
                                     </tr>
                                   </tbody>
                               </table>  
+    </p>
+        </div>
+</div>
+
+
      <table class="table-hover" style ="border-top: 0px;" >
            <h4 style="padding-top:5em;"><asp:Label ID="lbl_datosEmpleados" runat="server" Text="Datos de los Empleados"></asp:Label></h4>
          
@@ -144,6 +175,7 @@
                                   </tr>
                                   </tbody>
                               </table>             
+
       <footer>
       </footer>
 </div>

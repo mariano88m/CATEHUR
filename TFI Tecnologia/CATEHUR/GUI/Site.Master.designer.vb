@@ -41,6 +41,15 @@ Partial Public Class Site
     Protected WithEvents lbl_Administracion As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_GestionFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionFamilia As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_GestionFamilia.
     '''</summary>
     '''<remarks>
@@ -48,6 +57,15 @@ Partial Public Class Site
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbl_GestionFamilia As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control dr_GestionUsuario.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionUsuario As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
     '''Control lbl_GestionUsuario.
@@ -59,6 +77,15 @@ Partial Public Class Site
     Protected WithEvents lbl_GestionUsuario As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_GestionBackup.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionBackup As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_GestionBD.
     '''</summary>
     '''<remarks>
@@ -68,6 +95,15 @@ Partial Public Class Site
     Protected WithEvents lbl_GestionBD As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_GestionBitacora.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionBitacora As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_gestionBitacora.
     '''</summary>
     '''<remarks>
@@ -75,6 +111,15 @@ Partial Public Class Site
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbl_gestionBitacora As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control dr_GestionDV.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionDV As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
     '''Control lbl_gestionDV.
@@ -104,6 +149,15 @@ Partial Public Class Site
     Protected WithEvents lbl_Coordinacion As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_GestionClientes.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionClientes As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_GestionClientes.
     '''</summary>
     '''<remarks>
@@ -111,6 +165,15 @@ Partial Public Class Site
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbl_GestionClientes As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control dr_presupuesto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_presupuesto As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
     '''Control lbl_solicitudPresupuestoMenu.
@@ -122,6 +185,15 @@ Partial Public Class Site
     Protected WithEvents lbl_solicitudPresupuestoMenu As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_RegistrarReserva.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_RegistrarReserva As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_registrarReserva.
     '''</summary>
     '''<remarks>
@@ -131,6 +203,15 @@ Partial Public Class Site
     Protected WithEvents lbl_registrarReserva As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_CronogramaEventos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_CronogramaEventos As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_CronogramaEventos.
     '''</summary>
     '''<remarks>
@@ -138,6 +219,15 @@ Partial Public Class Site
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbl_CronogramaEventos As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control dr_AsignarPersonal.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_AsignarPersonal As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
     '''Control lbl_AsignacionPersonal.
@@ -167,6 +257,15 @@ Partial Public Class Site
     Protected WithEvents lbl_Cocina As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_PreparacionEntrega.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_PreparacionEntrega As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_PreparacionEntrega.
     '''</summary>
     '''<remarks>
@@ -176,6 +275,15 @@ Partial Public Class Site
     Protected WithEvents lbl_PreparacionEntrega As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_ElaboracionPlatos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_ElaboracionPlatos As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_ElaboracionPlatos.
     '''</summary>
     '''<remarks>
@@ -183,6 +291,15 @@ Partial Public Class Site
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbl_ElaboracionPlatos As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control dr_GestionBebidas.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_GestionBebidas As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
     '''Control lbl_GestionBebidas.
@@ -212,6 +329,15 @@ Partial Public Class Site
     Protected WithEvents lbl_Camarero As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_RegistrarPerdidas.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_RegistrarPerdidas As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_registrarPerdidas.
     '''</summary>
     '''<remarks>
@@ -221,6 +347,15 @@ Partial Public Class Site
     Protected WithEvents lbl_registrarPerdidas As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control dr_reposicionStock.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents dr_reposicionStock As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control lbl_reposicionStock.
     '''</summary>
     '''<remarks>
@@ -228,6 +363,15 @@ Partial Public Class Site
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbl_reposicionStock As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control nv_bienvenido.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents nv_bienvenido As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control lbl_bienvenido.

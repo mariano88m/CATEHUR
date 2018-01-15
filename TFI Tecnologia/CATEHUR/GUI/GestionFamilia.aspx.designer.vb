@@ -23,6 +23,15 @@ Partial Public Class GestionFamilia
     Protected WithEvents lbl_gestionFamilia As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control Label1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control lbl_familia.
     '''</summary>
     '''<remarks>
@@ -48,6 +57,78 @@ Partial Public Class GestionFamilia
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btn_buscarFamilia As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control lbl_NuevaFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_NuevaFamilia As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control txt_AltaFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txt_AltaFamilia As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control btn_AltaFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btn_AltaFamilia As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control lbl_BajaFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_BajaFamilia As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control cmb_BajaFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmb_BajaFamilia As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''Control btn_BajaFamilia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btn_BajaFamilia As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control Label2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control Label3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_familiasAsignadas.
@@ -102,58 +183,4 @@ Partial Public Class GestionFamilia
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btn_AsignarFamilia As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control lbl_NuevaFamilia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lbl_NuevaFamilia As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control txt_AltaFamilia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents txt_AltaFamilia As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lbl_BajaFamilia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lbl_BajaFamilia As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control cmb_BajaFamilia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents cmb_BajaFamilia As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control btn_AltaFamilia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btn_AltaFamilia As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control btn_BajaFamilia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btn_BajaFamilia As Global.System.Web.UI.WebControls.Button
 End Class

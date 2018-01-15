@@ -77,43 +77,43 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="li_Administrador" runat="server" visible="false"><asp:Label ID="lbl_Administracion" runat="server" Text="Administracion" Visible="false"></asp:Label><span class="caret"></span></a>
               <div class="dropdown-menu" aria-labelledby="dr_Administrador">
-                <a class="dropdown-item" href="./GestionFamilia.aspx"><asp:Label ID="lbl_GestionFamilia" runat="server" Text="Gestion Familia" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./GestionUsuario.aspx"><asp:Label ID="lbl_GestionUsuario" runat="server" Text="Gestion Usuario" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./GestionBackup.aspx"><asp:Label ID="lbl_GestionBD" runat="server" Text="Gestion backup" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./GestionBitacora.aspx"><asp:Label ID="lbl_gestionBitacora" runat="server" Text="Gestion Bitacora" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./GestionDV.aspx"><asp:Label ID="lbl_gestionDV" runat="server" Text="Gestion Digito Verificador" Visible="false" ></asp:Label></a>
+                <a class="dropdown-item" href="./GestionFamilia.aspx" id="dr_GestionFamilia" runat="server"  visible="false" ><asp:Label ID="lbl_GestionFamilia" runat="server" Text="Gestion Familia" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./GestionUsuario.aspx" id="dr_GestionUsuario" runat="server" visible="false" ><asp:Label ID="lbl_GestionUsuario" runat="server" Text="Gestion Usuario" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./GestionBackup.aspx" id="dr_GestionBackup" runat="server" visible="false" ><asp:Label ID="lbl_GestionBD" runat="server" Text="Gestion backup" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./GestionBitacora.aspx" id="dr_GestionBitacora" runat="server" visible="false" ><asp:Label ID="lbl_gestionBitacora" runat="server" Text="Gestion Bitacora" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./GestionDV.aspx" id="dr_GestionDV" runat="server" visible="false" ><asp:Label ID="lbl_gestionDV" runat="server" Text="Gestion Digito Verificador" Visible="false" ></asp:Label></a>
               </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="li_Coordinador" runat="server" visible="false"><asp:Label ID="lbl_Coordinacion" runat="server" Text="Coordinacion" Visible="false"></asp:Label><span class="caret"></span></a>
               <div class="dropdown-menu" aria-labelledby="dr_Coordinador">
-                <a class="dropdown-item" href="./GestionCliente.aspx"><asp:Label ID="lbl_GestionClientes" runat="server" Text="Gestion Cliente" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./Presupuesto.aspx"><asp:Label ID="lbl_solicitudPresupuestoMenu" runat="server" Text="Solicitud Presupuesto" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./RegistrarReserva.aspx"><asp:Label ID="lbl_registrarReserva" runat="server" Text="Registrar Reserva" Visible="false"></asp:Label></a>                             
-                <a class="dropdown-item" href="./CronogramaEventos.aspx"><asp:Label ID="lbl_CronogramaEventos" runat="server" Text="Cronograma de Eventos" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./asignarpersonal.aspx"><asp:Label ID="lbl_AsignacionPersonal" runat="server" Text="Asignacion Personal" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./GestionCliente.aspx" id="dr_GestionClientes" runat="server"  visible="false"><asp:Label ID="lbl_GestionClientes" runat="server" Text="Gestion Cliente" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./Presupuesto.aspx" id="dr_presupuesto" runat="server" visible="false" ><asp:Label ID="lbl_solicitudPresupuestoMenu" runat="server" Text="Solicitud Presupuesto" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./RegistrarReserva.aspx" id="dr_RegistrarReserva" runat="server" visible="false" ><asp:Label ID="lbl_registrarReserva" runat="server" Text="Registrar Reserva" Visible="false"></asp:Label></a>                             
+                <a class="dropdown-item" href="./CronogramaEventos.aspx" id="dr_CronogramaEventos" runat="server" visible="false" ><asp:Label ID="lbl_CronogramaEventos" runat="server" Text="Cronograma de Eventos" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./asignarpersonal.aspx" id="dr_AsignarPersonal" runat="server" visible="false" ><asp:Label ID="lbl_AsignacionPersonal" runat="server" Text="Asignacion Personal" Visible="false"></asp:Label></a>
               </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="li_Cocinero" runat="server" visible="false" ><asp:Label ID="lbl_Cocina" runat="server" Text="Cocina" Visible="false"></asp:Label><span class="caret"></span></a>
               <div class="dropdown-menu" aria-labelledby="dr_Cocina">
-                <a class="dropdown-item" href="./PreparacionEntrega.aspx"><asp:Label ID="lbl_PreparacionEntrega" runat="server" Text="Preparacion de Entrega" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./ElaboracionPlatos.aspx"><asp:Label ID="lbl_ElaboracionPlatos" runat="server" Text="Elaboracion de Platos" Visible="false"></asp:Label></a>
-                <a class="dropdown-item" href="./gestionBebidas.aspx"><asp:Label ID="lbl_GestionBebidas" runat="server" Text="Gestion Bebidas" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./PreparacionEntrega.aspx" id="dr_PreparacionEntrega" runat="server" visible="false" ><asp:Label ID="lbl_PreparacionEntrega" runat="server" Text="Preparacion de Entrega" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./ElaboracionPlatos.aspx" id="dr_ElaboracionPlatos" runat="server" visible="false" ><asp:Label ID="lbl_ElaboracionPlatos" runat="server" Text="Elaboracion de Platos" Visible="false"></asp:Label></a>
+                <a class="dropdown-item" href="./gestionBebidas.aspx" id="dr_GestionBebidas" runat="server" visible="false" ><asp:Label ID="lbl_GestionBebidas" runat="server" Text="Gestion Bebidas" Visible="false"></asp:Label></a>
               </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="li_Camarero" runat="server" visible="false"><asp:Label ID="lbl_Camarero" runat="server" Text="Camarero" Visible="false"></asp:Label><span class="caret"></span></a>
               <div class="dropdown-menu" aria-labelledby="dr_Camarero">
-               <a class="dropdown-item" href="./RegistrarPerdidas.aspx"><asp:Label ID="lbl_registrarPerdidas" runat="server" Text="Registrar Perdidas" Visible="false"></asp:Label></a>
-               <a class="dropdown-item" href="./reposicionStock.aspx"><asp:Label ID="lbl_reposicionStock" runat="server" Text="Reposicion de Stock"></asp:Label></a>
+               <a class="dropdown-item" href="./RegistrarPerdidas.aspx" id="dr_RegistrarPerdidas" runat="server" visible="false" ><asp:Label ID="lbl_registrarPerdidas" runat="server" Text="Registrar Perdidas" Visible="false"></asp:Label></a>
+               <a class="dropdown-item" href="./reposicionStock.aspx" id="dr_reposicionStock" runat="server" visible="false" ><asp:Label ID="lbl_reposicionStock" runat="server" Text="Reposicion de Stock"></asp:Label></a>
               </div>
             </li>
 
           </ul>
 
           <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item" id="nv_bienvenido" runat="server" >
               <a class="nav-link"><asp:Label ID="lbl_bienvenido" runat="server" Text="" ></asp:Label><asp:Label ID="lbl_Usuario" runat="server" Text=""></asp:Label></a>
             </li>
             <li class="nav-item">
