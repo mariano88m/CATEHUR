@@ -870,6 +870,14 @@ Control btn_bajaPlato.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:GUI.GestionBitacora.lbl_GestionBitacora">
+	<summary>
+Control lbl_GestionBitacora.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:GUI.GestionBitacora.lbl_fechas">
 	<summary>
 Control lbl_fechas.
@@ -934,9 +942,9 @@ Control lbl_usuario.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:GUI.GestionBitacora.cmb_usuario">
+</member><member name="F:GUI.GestionBitacora.txt_usuario">
 	<summary>
-Control cmb_usuario.
+Control txt_usuario.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -1174,14 +1182,6 @@ Control lbl_datosEmpleados.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:GUI.AsignarPersonal.lbl_Camarero">
-	<summary>
-Control lbl_Camarero.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member><member name="F:GUI.AsignarPersonal.lbl_Cocinero">
 	<summary>
 Control lbl_Cocinero.
@@ -1193,6 +1193,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:GUI.AsignarPersonal.dt_cocineros">
 	<summary>
 Control dt_cocineros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GUI.AsignarPersonal.lbl_Camarero">
+	<summary>
+Control lbl_Camarero.
 </summary>
 	<remarks>
 Campo generado automáticamente.

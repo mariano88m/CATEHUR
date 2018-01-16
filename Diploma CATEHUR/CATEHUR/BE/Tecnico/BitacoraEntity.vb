@@ -5,13 +5,14 @@ Public Class BitacoraEntity
 
     Public Property IdUsuario As Integer
 
+    Public Property Username As String
+
     Public Property Fecha As DateTime
 
     Public Property Accion As String
 
     Public Property InfoAccion As String
 
-    Public Property Categoria As String
 
 
 

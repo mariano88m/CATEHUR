@@ -15,8 +15,8 @@ Public Class BitacoraBLL
     End Function
 
 
-    Public Function TraerBitacoraXFechas(unaFechaInicio As DateTime, unFechaFin As DateTime, Username As String, Descripcion As String, LaConfig As ConfiguracionConexion) As List(Of BitacoraEntity)
-        Return dalBitacora.TraerBitacoraXFechas(ConvertirFecha(unaFechaInicio), ConvertirFecha(unFechaFin), Username, Descripcion, LaConfig)
+    Public Function BuscarBitacora(unaFechaInicio As DateTime, unFechaFin As DateTime, Username As String, Descripcion As String, LaConfig As ConfiguracionConexion) As List(Of BitacoraEntity)
+        Return dalBitacora.BuscarBitacora(ConvertirFecha(unaFechaInicio), ConvertirFecha(unFechaFin), Username, Descripcion, LaConfig)
     End Function
 
 

@@ -163,6 +163,9 @@ Public Class AsignarPersonal
         txt_tipoEmpleado.Text = unEmpleado.unTipoEmpleado.DescripcionTipoEmpleado
         lbl_idTipoEmpleado.Text = unEmpleado.unTipoEmpleado.IdTipoEmpleado
 
+        ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "openModal();", True)
+
+
     End Sub
 
     Private Sub dt_cocineros_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dt_cocineros.SelectedIndexChanged
@@ -176,6 +179,10 @@ Public Class AsignarPersonal
         txt_telefono.Text = unEmpleado.Telefono
         txt_tipoEmpleado.Text = unEmpleado.unTipoEmpleado.DescripcionTipoEmpleado
         lbl_idTipoEmpleado.Text = unEmpleado.unTipoEmpleado.IdTipoEmpleado
+
+        ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "openModal();", True)
+
+
     End Sub
 
     Private Sub btn_asignarEmpleado_Click(sender As Object, e As EventArgs) Handles btn_asignarEmpleado.Click

@@ -26,9 +26,9 @@
 
                  </div>
               </div>
-                          <div class="col-lg-4">
+              <div class="col-lg-4">
                  <div class ="bs-component">
-<div class="card border-secondary mb-3">
+                    <div class="card border-secondary mb-3">
   <div class="card-header"><asp:Label ID="lbl_NuevaFamilia" runat="server" Text="Nueva Familia"></asp:Label></div>
   <div class="card-body text-secondary">
     <h4 class="card-title"></h4>
@@ -36,10 +36,6 @@
     <p><asp:Button Class="btn btn-info btn-lg" onclientclick='btn_asignarEmpleado_Click' ID="btn_AltaFamilia" runat="server" Text="Alta familia" /></p>
   </div>
 </div>
-
-
-
-
 
                  </div>
               </div>

@@ -5,7 +5,7 @@
 
 
     <div class="container">
-             <script type="text/javascript">
+    <script type="text/javascript">
                  function openModal() {
                      $('#myModal').modal('show');
                  }
@@ -165,10 +165,7 @@
                     <th scope="row"><asp:CheckBoxList ID="chk_bebida" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
                  </tr>
           </tbody>
-        </table>              
-              
-              
-               
+        </table>                        
           
       </div>
       <div class="modal-footer">

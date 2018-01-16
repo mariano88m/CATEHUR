@@ -77,15 +77,6 @@ Partial Public Class AsignarPersonal
     Protected WithEvents lbl_datosEmpleados As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control lbl_Camarero.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lbl_Camarero As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''Control lbl_Cocinero.
     '''</summary>
     '''<remarks>
@@ -102,6 +93,15 @@ Partial Public Class AsignarPersonal
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents dt_cocineros As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''Control lbl_Camarero.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_Camarero As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control dt_camareros.
@@ -146,7 +146,7 @@ Partial Public Class AsignarPersonal
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_nombre As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_nombre As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_apellido.
@@ -164,7 +164,7 @@ Partial Public Class AsignarPersonal
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_apellido As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_apellido As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_email.
@@ -182,7 +182,7 @@ Partial Public Class AsignarPersonal
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_email As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_email As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_domicilio.
@@ -200,7 +200,7 @@ Partial Public Class AsignarPersonal
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_domicilio As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_domicilio As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_telefono.
@@ -218,7 +218,7 @@ Partial Public Class AsignarPersonal
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_telefono As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_telefono As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_tipoEmpleado.
@@ -236,7 +236,7 @@ Partial Public Class AsignarPersonal
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_tipoEmpleado As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_tipoEmpleado As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control lbl_idTipoEmpleado.

@@ -19,16 +19,18 @@ Public Class GestionBitacora
             If Not IsPostBack Then
                 GUI.Site.oSujetoConcreto.Subscribe(Me)
                 GUI.Site.oSujetoConcreto.Notify()
+
+                cmd_Accion.DataSource = gestorBitacora.TraerDescripcionBitacora(GUI.Site.ConfiguracionBase)
+                cmd_Accion.DataTextField = "Accion"
+                cmd_Accion.DataBind()
+
+            Else
+
+                Una_Bitacora.Accion = cmd_Accion.SelectedValue
             End If
 
+          
 
-            cmb_usuario.DataSource = gestorUsuario.TraerTodosLosUsuarios(GUI.Site.ConfiguracionBase)
-            cmb_usuario.DataTextField = "Username"
-            cmb_usuario.DataBind()
-
-            cmd_Accion.DataSource = gestorBitacora.TraerDescripcionBitacora(GUI.Site.ConfiguracionBase)
-            cmd_Accion.DataTextField = "Accion"
-            cmd_Accion.DataBind()
         Catch ex As Exception
 
         End Try
@@ -57,7 +59,7 @@ Public Class GestionBitacora
     Private Sub Btn_buscar_Click(sender As Object, e As EventArgs) Handles Btn_buscar.Click
         Try
 
-            dtBitacora.DataSource = gestorBitacora.TraerBitacoraXFechas(CDate(Txt_fechaDesde.Text), CDate(Txt_fechaHasta.Text), cmb_usuario.SelectedValue, cmd_Accion.SelectedValue, GUI.Site.ConfiguracionBase)
+            dtBitacora.DataSource = gestorBitacora.BuscarBitacora(CDate(Txt_fechaDesde.Text), CDate(Txt_fechaHasta.Text), txt_usuario.Text, Una_Bitacora.Accion, GUI.Site.ConfiguracionBase)
             dtBitacora.DataBind()
         Catch ex As Exception
 

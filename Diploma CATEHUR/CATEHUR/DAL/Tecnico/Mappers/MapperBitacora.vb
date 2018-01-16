@@ -58,12 +58,10 @@ Public Class MapperBitacora
 
     End Function
 
-    Function TraerBitacoraXFechas(p1 As Long, p2 As Long, Username As String, Descripcion As String, LaConfig As ConfiguracionConexion) As List(Of BitacoraEntity)
+    Function BuscarBitacora(p1 As Long, p2 As Long, Username As String, Accion As String, LaConfig As ConfiguracionConexion) As List(Of BitacoraEntity)
         'ConfiguracionBase = XML.DeSerializar(Of ConfiguracionConexion)(ms)
         Dim Bitacora As List(Of BitacoraEntity)
         Dim una_Query As String
-
-
 
         Dim unaconexion As New Conexion(Conexion.MotoresDisponibles.SqlServerClient)
 
@@ -72,7 +70,7 @@ Public Class MapperBitacora
         'Traiga la bitacora de la base
         ' 
 
-        una_Query = "Select Bitacora.id_bitacora ,Bitacora.Fecha ,Bitacora.Accion,Bitacora.InfoAccion from Bitacora, Usuario Where bitacora.id_usuario=usuario.IdUsuario and usuario.Username = '" & Username & "' and Bitacora.fecha between '" & p1 & "' and '" & p2 & "'"
+        una_Query = "Select Bitacora.id_bitacora ,Bitacora.Fecha ,Usuario.Username,Bitacora.Accion,Bitacora.InfoAccion from Bitacora, Usuario Where bitacora.id_usuario=usuario.IdUsuario and usuario.Username LIKE '" & Username & "%' and Bitacora.fecha between '" & p1 & "' and '" & p2 & "' and Bitacora.Accion= '" & Accion & "'"
 
 
         Dim resultado As IDataReader = CType(unaconexion.Ejecutar(una_Query, False, IConexion.TipoRetorno.Tupla).ResultadoConectado, IDataReader)

@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class GestionBitacora
 
     '''<summary>
+    '''Control lbl_GestionBitacora.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_GestionBitacora As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control lbl_fechas.
     '''</summary>
     '''<remarks>
@@ -86,13 +95,13 @@ Partial Public Class GestionBitacora
     Protected WithEvents lbl_usuario As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control cmb_usuario.
+    '''Control txt_usuario.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents cmb_usuario As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txt_usuario As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control lbl_Accion.
