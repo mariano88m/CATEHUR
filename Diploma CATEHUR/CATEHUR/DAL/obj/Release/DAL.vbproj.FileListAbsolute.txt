@@ -1,0 +1,30 @@
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\DAL.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\DAL.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\DAL.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\BE.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\Servicios.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\BE.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\BE.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\Servicios.pdb
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\Servicios.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.Resources.resources
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.dll
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.xml
+C:\Users\maria\Desktop\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\DAL.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\DAL.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\DAL.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\BE.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\Servicios.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\BE.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\BE.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\Servicios.pdb
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\bin\Release\Servicios.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.Resources.resources
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.vbproj.GenerateResource.Cache
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.dll
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.xml
+C:\Users\maria\Desktop\Nueva carpeta (3)\CATEHUR\Diploma CATEHUR\CATEHUR\DAL\obj\Release\DAL.pdb

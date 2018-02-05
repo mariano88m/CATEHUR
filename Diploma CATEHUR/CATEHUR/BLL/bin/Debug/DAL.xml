@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DAL
+</name>
+</assembly>
+<members>
+<member name="P:DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:DAL.MapperBitacora.LeerBitacora(DAL.ConfiguracionConexion)">
+	<summary>
+ Permite leer o consultar la bitacora
+ </summary>
+	<param name="LaConfig">configuracion de la base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DAL.XML.DeSerializar``1(System.IO.Stream)">
+	<summary>
+ Deserializa un xml
+ </summary>
+	<typeparam name="T">tipo generico</typeparam>
+	<param name="objetoEnXml">el xml que se transformara</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DAL.XML.StreamAString(System.IO.Stream)">
+	<summary>
+ Se pasa un stream a string
+ </summary>
+	<param name="ss">stram a pasar a string</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DAL.MapperCatering.AsignarCateringAlaBebida(BE.CateringEntity,System.Int32,DAL.ConfiguracionConexion)">
+	<summary>
+	</summary>
+	<param name="unCatering"></param>
+	<param name="id_bebida"></param>
+	<param name="LaConfig"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

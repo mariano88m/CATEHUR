@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33E35236-8377-493C-807E-CAE4B5887207}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GUI.My.MyApplication</StartupObject>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.TreeGX, Version=11.3.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asignacion de Personal\Frm_AsignacionPersonal.Designer.vb">
+      <DependentUpon>Frm_AsignacionPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asignacion de Personal\Frm_AsignacionPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_gestionBebidas.Designer.vb">
+      <DependentUpon>Frm_gestionBebidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_gestionBebidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_PreparacionEntrega.Designer.vb">
+      <DependentUpon>Frm_PreparacionEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_PreparacionEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_RegistrarPerdidas.Designer.vb">
+      <DependentUpon>Frm_RegistrarPerdidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_RegistrarPerdidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_ReposicionStock.Designer.vb">
+      <DependentUpon>Frm_ReposicionStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_ReposicionStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_CronogramaEventos.Designer.vb">
+      <DependentUpon>Frm_CronogramaEventos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_CronogramaEventos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_GestionCliente.Designer.vb">
+      <DependentUpon>Frm_GestionCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_GestionCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_GestionPlato.Designer.vb">
+      <DependentUpon>Frm_GestionPlato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionAlmacenamiento\Frm_GestionPlato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_RegistroReserva.Designer.vb">
+      <DependentUpon>Frm_RegistroReserva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_RegistroReserva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_SeleccionMenu.Designer.vb">
+      <DependentUpon>Frm_SeleccionMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_SeleccionMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_bloqueoUsuario.Designer.vb">
+      <DependentUpon>Frm_bloqueoUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_bloqueoUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_desbloqueoUsuario.Designer.vb">
+      <DependentUpon>Frm_desbloqueoUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_desbloqueoUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Traductor.vb" />
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPantallaPrincipal.Designer.vb">
+      <DependentUpon>FrmPantallaPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPantallaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_Presupuesto.Designer.vb">
+      <DependentUpon>Frm_Presupuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEvento\Frm_Presupuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionBackup.Designer.vb">
+      <DependentUpon>Frm_GestionBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionBitacora.Designer.vb">
+      <DependentUpon>Frm_GestionBitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionBitacora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionFamilia.Designer.vb">
+      <DependentUpon>Frm_GestionFamilia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionFamilia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionUsuario.Designer.vb">
+      <DependentUpon>Frm_GestionUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_GestionUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_RestoreBackUP.Designer.vb">
+      <DependentUpon>Frm_RestoreBackUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_RestoreBackUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\Frm_SeleccionIdioma.Designer.vb">
+      <DependentUpon>Frm_SeleccionIdioma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Frm_SeleccionIdioma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Asignacion de Personal\Frm_AsignacionPersonal.resx">
+      <DependentUpon>Frm_AsignacionPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPantallaPrincipal.resx">
+      <DependentUpon>FrmPantallaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionAlmacenamiento\Frm_gestionBebidas.resx">
+      <DependentUpon>Frm_gestionBebidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionAlmacenamiento\Frm_PreparacionEntrega.resx">
+      <DependentUpon>Frm_PreparacionEntrega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionAlmacenamiento\Frm_RegistrarPerdidas.resx">
+      <DependentUpon>Frm_RegistrarPerdidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionAlmacenamiento\Frm_ReposicionStock.resx">
+      <DependentUpon>Frm_ReposicionStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEvento\Frm_CronogramaEventos.resx">
+      <DependentUpon>Frm_CronogramaEventos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEvento\Frm_GestionCliente.resx">
+      <DependentUpon>Frm_GestionCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionAlmacenamiento\Frm_GestionPlato.resx">
+      <DependentUpon>Frm_GestionPlato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEvento\Frm_Presupuesto.resx">
+      <DependentUpon>Frm_Presupuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEvento\Frm_RegistroReserva.resx">
+      <DependentUpon>Frm_RegistroReserva.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEvento\Frm_SeleccionMenu.resx">
+      <DependentUpon>Frm_SeleccionMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_bloqueoUsuario.resx">
+      <DependentUpon>Frm_bloqueoUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_desbloqueoUsuario.resx">
+      <DependentUpon>Frm_desbloqueoUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_GestionBackup.resx">
+      <DependentUpon>Frm_GestionBackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_GestionBitacora.resx">
+      <DependentUpon>Frm_GestionBitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_GestionFamilia.resx">
+      <DependentUpon>Frm_GestionFamilia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_GestionUsuario.resx">
+      <DependentUpon>Frm_GestionUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_RestoreBackUP.resx">
+      <DependentUpon>Frm_RestoreBackUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\Frm_SeleccionIdioma.resx">
+      <DependentUpon>Frm_SeleccionIdioma.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.vbproj">
+      <Project>{7a4ab916-8c79-4969-a688-ba55b18a5f4a}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.vbproj">
+      <Project>{4418e8ea-0de2-4d39-80c0-76dcd5e9d191}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.vbproj">
+      <Project>{c3b19ca9-6c3b-48dd-b98e-262b83aaacc4}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicios\Servicios.vbproj">
+      <Project>{cbfeb7ab-3005-4b33-a4dd-fc72d6a7eee0}</Project>
+      <Name>Servicios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-en-negrita-izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\izq.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
