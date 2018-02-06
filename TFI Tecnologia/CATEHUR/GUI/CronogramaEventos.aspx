@@ -12,6 +12,11 @@
 
                 }
 
+                function modificarMenu() {
+
+                    $('#ModalMenu').modal('show');
+
+                }
             </script>
 
 <div class="container">
@@ -41,11 +46,7 @@
         </div>
     </div>
 
-
-
-
-
-      
+         
     <div class="hero-unit">
              
              <asp:GridView ID="dt_eventos" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal">
@@ -163,7 +164,6 @@
   </div>
 </div>
 
-
  <div class="modal" id="ModalModificacion" style="overflow:scroll;">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -189,7 +189,7 @@
                                   </tr>
                                   <tr>
                                     <td style="padding-top:1em;" class="auto-style2"><asp:Label ID="lbl_MCatering" runat="server" Text="Catering"></asp:Label></td>
-                                    <td style="padding-top:1em;" class="auto-style2"><asp:label ID="txt_MCatering" runat="server" Text=""></asp:label></td>
+                                    <td style="padding-top:1em;" class="auto-style2"><asp:DropDownList ID="cmb_Mcatering" runat="server"></asp:DropDownList></td>
                                   </tr>
                                   <tr>
                                     <td style="padding-top:1em;" class="auto-style2"><asp:Label ID="lbl_MPlatos" runat="server" Text="Platos"></asp:Label></td>
@@ -229,6 +229,10 @@
 
                                     </td>
                                   </tr>
+                                  <tr>
+                                    <td style="padding-top:1em;" class="auto-style3"></td>
+                                    <td style="padding-top:1em;" class="auto-style2"><asp:Button Class="btn btn-success btn-lg"  ID="btn_ModificarMenu" runat="server" Text="ModificarMenu" /></td>
+                                  </tr>
 
                                   <tr>
                                     <td style="padding-top:1em;" class="auto-style2"><asp:Label ID="lbl_MCantPersonas" runat="server" Text="Cantidad de Personas"></asp:Label></td>
@@ -264,7 +268,74 @@
     </div>
   </div>
 </div>
-
+    
+<div class="modal" id="ModalMenu" style="overflow:scroll;">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <table class="table table-hover">
+          <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_Entrada" runat="server" Text="Entrada"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="Chk_Entrada" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                  </tr>
+          </tbody>
+        </table>
+        <table class="table table-hover">
+          <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_PlatoPrincipal" runat="server" Text="Plato Principal"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="chk_PlatoPrincipal" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                  </tr>
+          </tbody>
+        </table>
+        <table class="table table-hover">
+        <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_postre" runat="server" Text="Postre"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="chk_Postre" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                  </tr>
+          </tbody>
+        </table>              
+        <table class="table table-hover">
+          <thead>
+                <tr class="table-dark">
+                    <th scope="col"><asp:Label ID="lbl_bebida" runat="server" Text="Bebida"></asp:Label></th>
+                </tr>
+          </thead>
+          <tbody>
+                 <tr class="table-active">
+                    <th scope="row"><asp:CheckBoxList ID="chk_bebida" runat="server" CssClass="radio inline"></asp:CheckBoxList></th>
+                 </tr>
+          </tbody>
+        </table>                        
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" id="btn_ConfirmarMenu" runat="server">Confirmar Menu</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

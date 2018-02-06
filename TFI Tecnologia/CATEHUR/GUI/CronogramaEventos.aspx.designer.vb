@@ -365,13 +365,13 @@ Partial Public Class CronogramaEventos
     Protected WithEvents lbl_MCatering As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control txt_MCatering.
+    '''Control cmb_Mcatering.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_MCatering As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents cmb_Mcatering As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control lbl_MPlatos.
@@ -408,6 +408,15 @@ Partial Public Class CronogramaEventos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents dt_mbebidas As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''Control btn_ModificarMenu.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btn_ModificarMenu As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control lbl_MCantPersonas.
@@ -498,4 +507,85 @@ Partial Public Class CronogramaEventos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btn_Cancelar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control lbl_Entrada.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_Entrada As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control Chk_Entrada.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Chk_Entrada As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''Control lbl_PlatoPrincipal.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_PlatoPrincipal As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control chk_PlatoPrincipal.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents chk_PlatoPrincipal As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''Control lbl_postre.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_postre As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control chk_Postre.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents chk_Postre As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''Control lbl_bebida.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_bebida As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control chk_bebida.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents chk_bebida As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''Control btn_ConfirmarMenu.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btn_ConfirmarMenu As Global.System.Web.UI.HtmlControls.HtmlButton
 End Class

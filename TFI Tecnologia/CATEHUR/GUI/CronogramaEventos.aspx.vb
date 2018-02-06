@@ -9,6 +9,8 @@ Public Class CronogramaEventos
     Dim unEvento As New EventoEntity
     Dim gestorEvento As New EventoBLL
     Dim unUsuario As New UsuarioEntity
+    Dim gestorPlato As New PlatoBLL
+    Dim gestorBebida As New BebidaBLL
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -55,7 +57,6 @@ Public Class CronogramaEventos
 
     End Sub
 
-
     Private Sub dt_eventos_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dt_eventos.SelectedIndexChanged
         Dim gr As GridViewRow = dt_eventos.SelectedRow
         Dim gestorPlatos As New PlatoBLL
@@ -68,6 +69,8 @@ Public Class CronogramaEventos
         txt_telefono.Text = unEvento.unCliente.Telefono
 
         txt_Direccion.Text = unEvento.DireccionEvento
+
+
         lbl_tipoCatering.Text = unEvento.unCatering.NombreCatering
 
         dt_platos.DataSource = gestorPlatos.TraerPlatosXEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase)
@@ -84,13 +87,6 @@ Public Class CronogramaEventos
 
 
         ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "openModal();", True)
-
-
-
-
-
-
-
 
 
 
@@ -113,6 +109,7 @@ Public Class CronogramaEventos
 
 
 
+
         dt_mplatos.DataSource = gestorPlatos.TraerPlatosXEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase)
         dt_mplatos.DataBind()
 
@@ -132,14 +129,147 @@ Public Class CronogramaEventos
         lbl_MMPrecio.Text = unEvento.PrecioTotalEvento
 
 
-
-
-
-
         ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarEvento();", True)
     End Sub
 
+
+    Private Sub Chk_Entrada_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Chk_Entrada.SelectedIndexChanged
+        Try
+
+            For Each item As System.Web.UI.WebControls.ListItem In Chk_Entrada.Items
+                If item.Selected Then
+                    ' If the item is selected, add the value to the list.
+                    Dim unPlato As New PlatoEntity
+                    unPlato.id_plato = item.Value
+                    unPlato.precio = gestorPlato.BuscarPrecio(unPlato, GUI.Site.ConfiguracionBase)
+                    unEvento.lstPlatos.Add(unPlato)
+                    ' Item is not selected, do something else.
+                Else
+                End If
+            Next
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
+
+    Private Sub chk_PlatoPrincipal_SelectedIndexChanged(sender As Object, e As EventArgs) Handles chk_PlatoPrincipal.SelectedIndexChanged
+        Try
+
+            For Each item As System.Web.UI.WebControls.ListItem In chk_PlatoPrincipal.Items
+                If item.Selected Then
+                    ' If the item is selected, add the value to the list.
+                    Dim unPlato As New PlatoEntity
+                    unPlato.id_plato = item.Value
+                    unPlato.precio = gestorPlato.BuscarPrecio(unPlato, GUI.Site.ConfiguracionBase)
+                    unEvento.lstPlatos.Add(unPlato)
+                    ' Item is not selected, do something else.
+                Else
+                End If
+            Next
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
+
+    Private Sub chk_Postre_SelectedIndexChanged(sender As Object, e As EventArgs) Handles chk_Postre.SelectedIndexChanged
+        Try
+
+            For Each item As System.Web.UI.WebControls.ListItem In chk_Postre.Items
+                If item.Selected Then
+                    ' If the item is selected, add the value to the list.
+                    Dim unPlato As New PlatoEntity
+                    unPlato.id_plato = item.Value
+                    unPlato.precio = gestorPlato.BuscarPrecio(unPlato, GUI.Site.ConfiguracionBase)
+                    unEvento.lstPlatos.Add(unPlato)
+                    ' Item is not selected, do something else.
+                Else
+                End If
+            Next
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
+
+    Private Sub chk_bebida_SelectedIndexChanged(sender As Object, e As EventArgs) Handles chk_bebida.SelectedIndexChanged
+        Try
+
+            For Each item As System.Web.UI.WebControls.ListItem In chk_bebida.Items
+                If item.Selected Then
+                    ' If the item is selected, add the value to the list.
+                    Dim unaBebida As New BebidaEntity
+                    unaBebida.id_bebida = item.Value
+                    unaBebida.Precio = gestorBebida.BuscarPrecio(unaBebida, GUI.Site.ConfiguracionBase)
+                    unEvento.lstBebidas.Add(unaBebida)
+                    ' Item is not selected, do something else.
+                Else
+                End If
+            Next
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
+
+
     Private Sub btn_aceptar_Click(sender As Object, e As EventArgs) Handles btn_aceptar.Click
+
+    End Sub
+
+    Private Sub btn_ModificarMenu_Click(sender As Object, e As EventArgs) Handles btn_ModificarMenu.Click
+        Try
+
+            unEvento.lstPlatos.Clear()
+            Chk_Entrada.DataSource = ""
+            Chk_Entrada.DataBind()
+
+            chk_PlatoPrincipal.DataSource = ""
+            chk_PlatoPrincipal.DataBind()
+
+            chk_Postre.DataSource = ""
+            chk_Postre.DataBind()
+
+            chk_bebida.DataSource = ""
+            chk_bebida.DataBind()
+
+
+            ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarMenu();", True)
+
+
+            For Each unTipoMenu As TipoMenuEntity In Me.unEvento.unCatering.lstTipoMenu
+                If unTipoMenu.id_TipoMenu = 1 Then
+                    Chk_Entrada.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Me.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    Chk_Entrada.DataTextField = "nombrePlato"
+                    Chk_Entrada.DataValueField = "id_plato"
+                    Chk_Entrada.DataBind()
+
+
+                ElseIf unTipoMenu.id_TipoMenu = 2 Then
+                    chk_PlatoPrincipal.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Me.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    chk_PlatoPrincipal.DataTextField = "nombrePlato"
+                    chk_PlatoPrincipal.DataValueField = "id_plato"
+                    chk_PlatoPrincipal.DataBind()
+
+                ElseIf unTipoMenu.id_TipoMenu = 3 Then
+                    chk_Postre.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Me.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    chk_Postre.DataTextField = "nombrePlato"
+                    chk_Postre.DataValueField = "id_plato"
+                    chk_Postre.DataBind()
+
+                ElseIf unTipoMenu.id_TipoMenu = 4 Then
+                    chk_bebida.DataSource = gestorBebida.TraerBebidaXCatering(Me.unEvento.unCatering.id_catering, GUI.Site.ConfiguracionBase)
+                    chk_bebida.DataTextField = "nombreBebida"
+                    chk_bebida.DataValueField = "id_bebida"
+                    chk_bebida.DataBind()
+
+
+                End If
+            Next
+        Catch ex As Exception
+
+        End Try
 
     End Sub
 End Class

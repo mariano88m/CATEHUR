@@ -19,14 +19,6 @@ DAL
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="M:DAL.MapperCatering.AsignarCateringAlaBebida(BE.CateringEntity,System.Int32,DAL.ConfiguracionConexion)">
-	<summary>
-	</summary>
-	<param name="unCatering"></param>
-	<param name="id_bebida"></param>
-	<param name="LaConfig"></param>
-	<returns></returns>
-	<remarks></remarks>
 </member><member name="M:DAL.MapperBitacora.LeerBitacora(DAL.ConfiguracionConexion)">
 	<summary>
  Permite leer o consultar la bitacora
@@ -47,6 +39,14 @@ DAL
  Se pasa un stream a string
  </summary>
 	<param name="ss">stram a pasar a string</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DAL.MapperCatering.AsignarCateringAlaBebida(BE.CateringEntity,System.Int32,DAL.ConfiguracionConexion)">
+	<summary>
+	</summary>
+	<param name="unCatering"></param>
+	<param name="id_bebida"></param>
+	<param name="LaConfig"></param>
 	<returns></returns>
 	<remarks></remarks>
 </member>

@@ -229,7 +229,7 @@ Public Class Site
                 Una_Bitacora.Accion = "Ingreso al Sistema"
                 Una_Bitacora.InfoAccion = "Ingreso Correcto"
 
-                gestorBitacora.GrabarBitacora(Una_Bitacora, ConfiguracionBase)
+                ' gestorBitacora.GrabarBitacora(Una_Bitacora, ConfiguracionBase)
                 txt_usuario.Visible = False
                 txt_Contraseña.Visible = False
                 btnLogin.Visible = False
@@ -253,7 +253,7 @@ Public Class Site
             Una_Bitacora.Accion = "Ingreso al Sistema"
             Una_Bitacora.InfoAccion = "Error en la Contraseña o Usuario"
 
-            gestorBitacora.GrabarBitacora(Una_Bitacora, ConfiguracionBase)
+            '  gestorBitacora.GrabarBitacora(Una_Bitacora, ConfiguracionBase)
 
         End Try
 
