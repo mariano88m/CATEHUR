@@ -11,7 +11,7 @@ Public Class CronogramaEventos
     Dim unUsuario As New UsuarioEntity
     Dim gestorPlato As New PlatoBLL
     Dim gestorBebida As New BebidaBLL
-
+    Dim gestorCatering As New CateringBLL
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
@@ -71,6 +71,7 @@ Public Class CronogramaEventos
         txt_Direccion.Text = unEvento.DireccionEvento
 
 
+
         lbl_tipoCatering.Text = unEvento.unCatering.NombreCatering
 
         dt_platos.DataSource = gestorPlatos.TraerPlatosXEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase)
@@ -97,7 +98,7 @@ Public Class CronogramaEventos
         Dim gr As GridViewRow = dt_eventos.SelectedRow
         Dim gestorPlatos As New PlatoBLL
         Dim gestorBebidas As New BebidaBLL
-        unEvento = gestorEvento.BuscarEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase).First
+        unEvento = gestorEvento.BuscarEvento(CInt(lbl_idEvento.Text), GUI.Site.ConfiguracionBase).First
 
 
         lbl_MidEvento.Text = gr.Cells(1).Text
@@ -107,13 +108,17 @@ Public Class CronogramaEventos
         txt_MTelefono.Text = unEvento.unCliente.Telefono
         lbl_MFecha.Text = unEvento.FechaEvento
 
+        cmb_Mcatering.DataSource = gestorCatering.TraerTodosLosCatering(GUI.Site.ConfiguracionBase)
+        cmb_Mcatering.DataTextField = ("NombreCatering")
+        cmb_Mcatering.DataValueField = ("id_catering")
+        cmb_Mcatering.DataBind()
 
+        cmb_Mcatering.SelectedValue = unEvento.unCatering.id_catering
 
-
-        dt_mplatos.DataSource = gestorPlatos.TraerPlatosXEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase)
+        dt_mplatos.DataSource = gestorPlatos.TraerPlatosXEvento(CInt(lbl_idEvento.Text), GUI.Site.ConfiguracionBase)
         dt_mplatos.DataBind()
 
-        dt_mbebidas.DataSource = gestorBebidas.TraerBebidaXEvento(CInt(gr.Cells(1).Text), GUI.Site.ConfiguracionBase)
+        dt_mbebidas.DataSource = gestorBebidas.TraerBebidaXEvento(CInt(lbl_idEvento.Text), GUI.Site.ConfiguracionBase)
         dt_mbebidas.DataBind()
 
         txt_MCantPersonas.Text = unEvento.CantPersonas
@@ -237,6 +242,7 @@ Public Class CronogramaEventos
 
             ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarMenu();", True)
 
+            unEvento = gestorEvento.BuscarEvento(CInt(lbl_idEvento.Text), GUI.Site.ConfiguracionBase).First
 
             For Each unTipoMenu As TipoMenuEntity In Me.unEvento.unCatering.lstTipoMenu
                 If unTipoMenu.id_TipoMenu = 1 Then

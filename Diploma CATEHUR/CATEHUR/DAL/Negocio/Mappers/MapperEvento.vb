@@ -89,6 +89,7 @@ Public Class MapperEvento
             unEvento.unCatering = TraerNombreCateringdelEvento(unEvento.id_evento, LaConfig)
             unEvento.unEstadoEvento = TraerNombreEstadodelEvento(unEvento.id_evento, LaConfig)
 
+
         Next
 
         unaconexion.ConexionFinalizar()
@@ -156,7 +157,9 @@ Public Class MapperEvento
         Dim resultado As IDataReader = unaconexion.Ejecutar("Select Catering.NombreCatering, Catering.id_catering from Catering, Evento where Evento.id_catering = Catering.id_catering and Evento.id_evento=@id_evento ", False, IConexion.TipoRetorno.Tupla, id_evento).ResultadoConectado
 
         unCatering = DataReadObjeto.RealizarMapeoSinLista(Of CateringEntity)(resultado)
+
         unaconexion.ConexionFinalizar()
+
         Return unCatering
 
     End Function

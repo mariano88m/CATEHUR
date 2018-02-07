@@ -105,7 +105,6 @@ D:\CATEHUR-Git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.vbproj.GenerateR
 D:\CATEHUR-Git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.dll
 D:\CATEHUR-Git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.xml
 D:\CATEHUR-Git\CATEHUR\TFI Tecnologia\CATEHUR\GUI\obj\Debug\GUI.pdb
-D:\CATEHUR-Git\1\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.dll.config
 D:\CATEHUR-Git\1\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.dll
 D:\CATEHUR-Git\1\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.pdb
 D:\CATEHUR-Git\1\CATEHUR\TFI Tecnologia\CATEHUR\GUI\bin\GUI.xml

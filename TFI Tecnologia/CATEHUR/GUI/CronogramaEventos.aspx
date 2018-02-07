@@ -189,7 +189,7 @@
                                   </tr>
                                   <tr>
                                     <td style="padding-top:1em;" class="auto-style2"><asp:Label ID="lbl_MCatering" runat="server" Text="Catering"></asp:Label></td>
-                                    <td style="padding-top:1em;" class="auto-style2"><asp:DropDownList ID="cmb_Mcatering" runat="server"></asp:DropDownList></td>
+                                    <td style="padding-top:1em;" class="auto-style3"><asp:DropDownList ID="cmb_Mcatering" runat="server"></asp:DropDownList></td>
                                   </tr>
                                   <tr>
                                     <td style="padding-top:1em;" class="auto-style2"><asp:Label ID="lbl_MPlatos" runat="server" Text="Platos"></asp:Label></td>
