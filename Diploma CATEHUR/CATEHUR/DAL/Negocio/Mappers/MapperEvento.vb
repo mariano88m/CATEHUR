@@ -150,15 +150,18 @@ Public Class MapperEvento
 
     End Function
     Public Function TraerNombreCateringdelEvento(id_evento As Integer, LaConfig As ConfiguracionConexion) As CateringEntity
+        Dim dalTipoMenu As New MapperTipoMenu
         Dim unCatering As New CateringEntity
         Dim unaconexion As New Conexion(Conexion.MotoresDisponibles.SqlServerClient)
         unaconexion.ConexionIniciar(LaConfig)
 
         Dim resultado As IDataReader = unaconexion.Ejecutar("Select Catering.NombreCatering, Catering.id_catering from Catering, Evento where Evento.id_catering = Catering.id_catering and Evento.id_evento=@id_evento ", False, IConexion.TipoRetorno.Tupla, id_evento).ResultadoConectado
-
         unCatering = DataReadObjeto.RealizarMapeoSinLista(Of CateringEntity)(resultado)
 
+
         unaconexion.ConexionFinalizar()
+
+        unCatering.lstTipoMenu = dalTipoMenu.TraerTiposMenuXCatering(unCatering.id_catering, LaConfig)
 
         Return unCatering
 

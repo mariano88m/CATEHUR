@@ -5,9 +5,9 @@ Public Class PlatoBLL
     Dim unGestorIngrediente As New MapperIngrediente
     Dim unPlato As New PlatoEntity
 
-    Public Function TraerPlatos(unTipoMenu As TipoMenuEntity, unCatering As CateringEntity, laConfig As ConfiguracionConexion) As List(Of PlatoEntity)
+    Public Function TraerPlatos(unTipoMenu As TipoMenuEntity, id_catering As Integer, laConfig As ConfiguracionConexion) As List(Of PlatoEntity)
 
-        Return unGestorPlato.TraerPlatos(unTipoMenu, unCatering, laConfig)
+        Return unGestorPlato.TraerPlatos(unTipoMenu, id_catering, laConfig)
 
     End Function
     Public Function TraerPlatos(laConfig As ConfiguracionConexion) As List(Of PlatoEntity)

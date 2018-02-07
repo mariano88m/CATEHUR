@@ -1,7 +1,7 @@
 ﻿Imports BE
 
 Public Class MapperPlato
-    Public Function TraerPlatos(unTipoMenu As TipoMenuEntity, unCatering As CateringEntity, laConfig As ConfiguracionConexion) As List(Of PlatoEntity)
+    Public Function TraerPlatos(unTipoMenu As TipoMenuEntity, id_catering As Integer, laConfig As ConfiguracionConexion) As List(Of PlatoEntity)
 
         Dim lstPlato As New List(Of PlatoEntity)
 
@@ -9,7 +9,7 @@ Public Class MapperPlato
 
         unaconexion.ConexionIniciar(laConfig)
 
-        Dim resultado As IDataReader = unaconexion.Ejecutar("select Plato.id_plato,Plato.nombrePlato,Plato.id_tipoMenu,Plato.ManoDeObra from Plato,Catering,TipoMenuXCatering,TipoMenu,PlatoXCatering where Catering.id_Catering=TipoMenuXCatering.id_Catering and TipoMenuXCatering.id_TipoMenu = TipoMenu.id_TipoMenu and TipoMenu.id_TipoMenu =Plato.id_tipoMenu and Plato.id_plato = PlatoXCatering.id_plato and PlatoXCatering.id_catering = Catering.id_Catering and Catering.id_Catering = @id_catering and TipoMenu.id_TipoMenu = @id_TipoMenu and Plato.Habilitado = '1' ", False, IConexion.TipoRetorno.Tupla, unCatering.id_catering, unTipoMenu.id_TipoMenu).ResultadoConectado
+        Dim resultado As IDataReader = unaconexion.Ejecutar("select Plato.id_plato,Plato.nombrePlato,Plato.id_tipoMenu,Plato.ManoDeObra from Plato,Catering,TipoMenuXCatering,TipoMenu,PlatoXCatering where Catering.id_Catering=TipoMenuXCatering.id_Catering and TipoMenuXCatering.id_TipoMenu = TipoMenu.id_TipoMenu and TipoMenu.id_TipoMenu =Plato.id_tipoMenu and Plato.id_plato = PlatoXCatering.id_plato and PlatoXCatering.id_catering = Catering.id_Catering and Catering.id_Catering = @id_catering and TipoMenu.id_TipoMenu = @id_TipoMenu and Plato.Habilitado = '1' ", False, IConexion.TipoRetorno.Tupla, id_catering, unTipoMenu.id_TipoMenu).ResultadoConectado
 
         lstPlato = DataReadObjeto.RealizarMapeo(Of PlatoEntity)(resultado)
 

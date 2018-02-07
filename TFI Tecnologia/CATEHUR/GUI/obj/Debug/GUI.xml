@@ -510,6 +510,14 @@ Control chk_bebida.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:GUI.CronogramaEventos.btn_CerrarMenu">
+	<summary>
+Control btn_CerrarMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:GUI.CronogramaEventos.btn_ConfirmarMenu">
 	<summary>
 Control btn_ConfirmarMenu.

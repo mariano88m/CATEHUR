@@ -121,20 +121,20 @@ Public Class Presupuesto
 
             For Each unTipoMenu As TipoMenuEntity In Presupuesto.unEvento.unCatering.lstTipoMenu
                 If unTipoMenu.id_TipoMenu = 1 Then
-                    Chk_Entrada.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Presupuesto.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    Chk_Entrada.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Presupuesto.unEvento.unCatering.id_catering, GUI.Site.ConfiguracionBase)
                     Chk_Entrada.DataTextField = "nombrePlato"
                     Chk_Entrada.DataValueField = "id_plato"
                     Chk_Entrada.DataBind()
 
 
                 ElseIf unTipoMenu.id_TipoMenu = 2 Then
-                    chk_PlatoPrincipal.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Presupuesto.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    chk_PlatoPrincipal.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Presupuesto.unEvento.unCatering.id_catering, GUI.Site.ConfiguracionBase)
                     chk_PlatoPrincipal.DataTextField = "nombrePlato"
                     chk_PlatoPrincipal.DataValueField = "id_plato"
                     chk_PlatoPrincipal.DataBind()
 
                 ElseIf unTipoMenu.id_TipoMenu = 3 Then
-                    chk_Postre.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Presupuesto.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    chk_Postre.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Presupuesto.unEvento.unCatering.id_catering, GUI.Site.ConfiguracionBase)
                     chk_Postre.DataTextField = "nombrePlato"
                     chk_Postre.DataValueField = "id_plato"
                     chk_Postre.DataBind()

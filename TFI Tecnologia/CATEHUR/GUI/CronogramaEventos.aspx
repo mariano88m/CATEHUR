@@ -330,7 +330,7 @@
           
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-default" id="btn_CerrarMenu" runat="server">Cerrar</button>
         <button type="button" class="btn btn-primary" id="btn_ConfirmarMenu" runat="server">Confirmar Menu</button>
       </div>
     </div>

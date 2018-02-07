@@ -581,6 +581,15 @@ Partial Public Class CronogramaEventos
     Protected WithEvents chk_bebida As Global.System.Web.UI.WebControls.CheckBoxList
 
     '''<summary>
+    '''Control btn_CerrarMenu.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btn_CerrarMenu As Global.System.Web.UI.HtmlControls.HtmlButton
+
+    '''<summary>
     '''Control btn_ConfirmarMenu.
     '''</summary>
     '''<remarks>

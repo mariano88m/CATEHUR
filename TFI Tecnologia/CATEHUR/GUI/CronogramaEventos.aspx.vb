@@ -146,6 +146,7 @@ Public Class CronogramaEventos
                     ' If the item is selected, add the value to the list.
                     Dim unPlato As New PlatoEntity
                     unPlato.id_plato = item.Value
+                    unPlato.nombrePlato = item.Text
                     unPlato.precio = gestorPlato.BuscarPrecio(unPlato, GUI.Site.ConfiguracionBase)
                     unEvento.lstPlatos.Add(unPlato)
                     ' Item is not selected, do something else.
@@ -166,6 +167,7 @@ Public Class CronogramaEventos
                     ' If the item is selected, add the value to the list.
                     Dim unPlato As New PlatoEntity
                     unPlato.id_plato = item.Value
+                    unPlato.nombrePlato = item.Text
                     unPlato.precio = gestorPlato.BuscarPrecio(unPlato, GUI.Site.ConfiguracionBase)
                     unEvento.lstPlatos.Add(unPlato)
                     ' Item is not selected, do something else.
@@ -186,6 +188,7 @@ Public Class CronogramaEventos
                     ' If the item is selected, add the value to the list.
                     Dim unPlato As New PlatoEntity
                     unPlato.id_plato = item.Value
+                    unPlato.nombrePlato = item.Text
                     unPlato.precio = gestorPlato.BuscarPrecio(unPlato, GUI.Site.ConfiguracionBase)
                     unEvento.lstPlatos.Add(unPlato)
                     ' Item is not selected, do something else.
@@ -206,6 +209,7 @@ Public Class CronogramaEventos
                     ' If the item is selected, add the value to the list.
                     Dim unaBebida As New BebidaEntity
                     unaBebida.id_bebida = item.Value
+                    unaBebida.nombreBebida = item.Text
                     unaBebida.Precio = gestorBebida.BuscarPrecio(unaBebida, GUI.Site.ConfiguracionBase)
                     unEvento.lstBebidas.Add(unaBebida)
                     ' Item is not selected, do something else.
@@ -225,6 +229,7 @@ Public Class CronogramaEventos
 
     Private Sub btn_ModificarMenu_Click(sender As Object, e As EventArgs) Handles btn_ModificarMenu.Click
         Try
+            Dim auxTipoMenu As New TipoMenuBLL
 
             unEvento.lstPlatos.Clear()
             Chk_Entrada.DataSource = ""
@@ -244,28 +249,31 @@ Public Class CronogramaEventos
 
             unEvento = gestorEvento.BuscarEvento(CInt(lbl_idEvento.Text), GUI.Site.ConfiguracionBase).First
 
+            unEvento.unCatering.lstTipoMenu = auxTipoMenu.TraerTiposMenuXCatering(cmb_Mcatering.SelectedValue, GUI.Site.ConfiguracionBase)
+
+
             For Each unTipoMenu As TipoMenuEntity In Me.unEvento.unCatering.lstTipoMenu
                 If unTipoMenu.id_TipoMenu = 1 Then
-                    Chk_Entrada.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Me.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    Chk_Entrada.DataSource = gestorPlato.TraerPlatos(unTipoMenu, cmb_Mcatering.SelectedValue, GUI.Site.ConfiguracionBase)
                     Chk_Entrada.DataTextField = "nombrePlato"
                     Chk_Entrada.DataValueField = "id_plato"
                     Chk_Entrada.DataBind()
 
 
                 ElseIf unTipoMenu.id_TipoMenu = 2 Then
-                    chk_PlatoPrincipal.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Me.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    chk_PlatoPrincipal.DataSource = gestorPlato.TraerPlatos(unTipoMenu, cmb_Mcatering.SelectedValue, GUI.Site.ConfiguracionBase)
                     chk_PlatoPrincipal.DataTextField = "nombrePlato"
                     chk_PlatoPrincipal.DataValueField = "id_plato"
                     chk_PlatoPrincipal.DataBind()
 
                 ElseIf unTipoMenu.id_TipoMenu = 3 Then
-                    chk_Postre.DataSource = gestorPlato.TraerPlatos(unTipoMenu, Me.unEvento.unCatering, GUI.Site.ConfiguracionBase)
+                    chk_Postre.DataSource = gestorPlato.TraerPlatos(unTipoMenu, cmb_Mcatering.SelectedValue, GUI.Site.ConfiguracionBase)
                     chk_Postre.DataTextField = "nombrePlato"
                     chk_Postre.DataValueField = "id_plato"
                     chk_Postre.DataBind()
 
                 ElseIf unTipoMenu.id_TipoMenu = 4 Then
-                    chk_bebida.DataSource = gestorBebida.TraerBebidaXCatering(Me.unEvento.unCatering.id_catering, GUI.Site.ConfiguracionBase)
+                    chk_bebida.DataSource = gestorBebida.TraerBebidaXCatering(cmb_Mcatering.SelectedValue, GUI.Site.ConfiguracionBase)
                     chk_bebida.DataTextField = "nombreBebida"
                     chk_bebida.DataValueField = "id_bebida"
                     chk_bebida.DataBind()
@@ -277,5 +285,25 @@ Public Class CronogramaEventos
 
         End Try
 
+    End Sub
+
+    Private Sub btn_ConfirmarMenu_ServerClick(sender As Object, e As EventArgs) Handles btn_ConfirmarMenu.ServerClick
+
+
+        dt_mplatos.DataSource = unEvento.lstPlatos
+        dt_mplatos.DataBind()
+
+        dt_mbebidas.DataSource = unEvento.lstBebidas
+        dt_mbebidas.DataBind()
+
+
+        ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarEvento();", True)
+
+    End Sub
+
+    Private Sub btn_CerrarMenu_ServerClick(sender As Object, e As EventArgs) Handles btn_CerrarMenu.ServerClick
+        unEvento.lstPlatos.Clear()
+        unEvento.lstBebidas.Clear()
+        ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarEvento();", True)
     End Sub
 End Class
