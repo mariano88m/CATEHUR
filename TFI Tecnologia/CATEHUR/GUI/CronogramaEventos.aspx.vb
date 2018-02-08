@@ -14,6 +14,7 @@ Public Class CronogramaEventos
     Dim gestorCatering As New CateringBLL
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         If Not IsPostBack Then
             GUI.Site.oSujetoConcreto.Subscribe(Me)
             GUI.Site.oSujetoConcreto.Notify()
@@ -296,6 +297,29 @@ Public Class CronogramaEventos
         dt_mbebidas.DataSource = unEvento.lstBebidas
         dt_mbebidas.DataBind()
 
+        Try
+
+            unEvento.PrecioTotalEvento = 0
+            For Each unPlato As PlatoEntity In unEvento.lstPlatos
+                unEvento.PrecioTotalEvento = unEvento.PrecioTotalEvento + unPlato.precio
+            Next
+            For Each unaBebida As BebidaEntity In unEvento.lstBebidas
+                unEvento.PrecioTotalEvento = unEvento.PrecioTotalEvento + unaBebida.Precio
+            Next
+
+            lbl_MMPrecio.Text = unEvento.PrecioTotalEvento
+
+            lbl_MMPrecio.Text = (CDec(lbl_MMPrecio.Text) * CInt(txt_MCantPersonas.Text)) * 1.3500000000000001
+
+
+
+        Catch ex As Exception
+
+        End Try
+
+
+
+
 
         ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarEvento();", True)
 
@@ -305,5 +329,17 @@ Public Class CronogramaEventos
         unEvento.lstPlatos.Clear()
         unEvento.lstBebidas.Clear()
         ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarEvento();", True)
+    End Sub
+
+
+    Private Sub txt_MCantPersonas_TextChanged(sender As Object, e As EventArgs) Handles txt_MCantPersonas.TextChanged
+
+        lbl_MMPrecio.Text = (CDec(lbl_MMPrecio.Text) * CInt(txt_MCantPersonas.Text)) * 1.3500000000000001
+
+    End Sub
+
+    Private Sub txt_MCantPersonas_Unload(sender As Object, e As EventArgs) Handles txt_MCantPersonas.Unload
+        lbl_MMPrecio.Text = (CDec(lbl_MMPrecio.Text) * CInt(txt_MCantPersonas.Text)) * 1.3500000000000001
+
     End Sub
 End Class
