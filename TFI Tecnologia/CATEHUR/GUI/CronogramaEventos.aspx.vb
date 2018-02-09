@@ -1,6 +1,16 @@
 ﻿Imports BE
 Imports BLL
+Imports System.IO
 
+Imports System.Collections.Generic
+
+Imports iTextSharp.text
+Imports iTextSharp.text.html.simpleparser
+Imports iTextSharp.text.pdf
+
+Imports System.Web
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
 
 Public Class CronogramaEventos
     Inherits System.Web.UI.Page
@@ -226,6 +236,153 @@ Public Class CronogramaEventos
 
     Private Sub btn_aceptar_Click(sender As Object, e As EventArgs) Handles btn_aceptar.Click
 
+        Try
+            unEvento.PrecioTotalEvento = (unEvento.PrecioTotalEvento * CInt(txt_cantPersonas.Text)) * 1.35
+            unEvento.CantPersonas = CInt(txt_MCantPersonas.Text)
+            unEvento.Comentario = txt_comentarios.Text
+            unEvento.unEstadoEvento.id_estado = 1
+            unEvento.nombreEvento = txt_nombreEvento.Text
+            unEvento.DireccionEvento = txt_direccionEvento.Text
+
+            If Not gestorEvento.DisponibilidadEvento(unEvento.FechaEvento, GUI.Site.ConfiguracionBase) Then
+
+                unEvento.DDVVH = DigitoVerificador.CalcularDDVVH(CStr(unEvento.id_evento) + CStr(unEvento.nombreEvento) + CStr(unEvento.PrecioTotalEvento) + CStr(unEvento.Reserva) + CStr(unEvento.unEstadoEvento.id_estado) + CStr(unEvento.unCliente.IdCliente) + CStr(unEvento.unCatering.id_catering))
+
+                gestorEvento.GenerarEvento(unEvento, GUI.Site.ConfiguracionBase)
+
+                DigitoVerificador.ActualizarDigitosVerificadorVerticales("Evento", GUI.Site.ConfiguracionBase)
+
+                Dim pdfDoc As New Document(PageSize.A4, 10, 10, 10, 10)
+
+                Try
+                    PdfWriter.GetInstance(pdfDoc, System.Web.HttpContext.Current.Response.OutputStream)
+
+                    'Open PDF Document to write data 
+                    pdfDoc.Open()
+
+                    Dim cadenaFinal As String = ""
+                    unEvento.id_evento = gestorEvento.BuscarIDEvento(unEvento, GUI.Site.ConfiguracionBase)
+
+                    unEvento.lstPlatos = gestorPlato.TraerPlatosXEvento(unEvento.id_evento, GUI.Site.ConfiguracionBase)
+
+                    unEvento.lstBebidas = gestorBebida.TraerBebidaXEvento(unEvento.id_evento, GUI.Site.ConfiguracionBase)
+
+                    cadenaFinal += "<h1>CATEHUR - Servicios de Catering - Presupuesto</h1>"
+                    cadenaFinal += "<h2>" + CStr(unEvento.id_evento) + " - " + unEvento.nombreEvento + "</h2>"
+                    cadenaFinal += "<h3> Cliente: " + CStr(unEvento.unCliente.NombreCliente) + "</h3>"
+                    cadenaFinal += "<h3> Fecha del evento: " + CStr(unEvento.FechaEvento) + "</h3>"
+                    cadenaFinal += "<h3> Direccion del evento: " + CStr(unEvento.DireccionEvento) + "</h3>"
+                    cadenaFinal += "<h3> Cantidad de Personas: " + CStr(unEvento.CantPersonas) + "</h3>"
+
+
+                    Dim precioTotalPlato As Decimal = 0
+                    Dim precioTotalBebida As Decimal = 0
+
+
+                    cadenaFinal += "<h3> Nombre de los Platos </h3>"
+
+                    For Each unPlato As PlatoEntity In unEvento.lstPlatos
+                        Dim precioPlato As Decimal = 0
+                        For Each unIngrediente As ingredienteEntity In unPlato.lstIngredientes
+                            precioPlato += (((unIngrediente.Cantidad * unIngrediente.precio) + unPlato.manoDeObra) * unEvento.CantPersonas)
+                        Next
+                        cadenaFinal += "<h5> " + unPlato.nombrePlato + "</h5>"
+                        cadenaFinal += "<TABLE BORDER='0'><TR><TD></TD><TD>Precio total del plato: (incluido mano de obra) </TD><TD>" + CStr(precioPlato) + "</TD></TR>"
+
+                        cadenaFinal += "</TABLE>"
+
+                        precioTotalPlato += precioPlato
+                    Next
+
+                    cadenaFinal += "<h5> Precio Total de los platos:" + CStr(precioTotalPlato) + "</h5>"
+
+                    cadenaFinal += "<h3> Nombre de las bebidas </h3>"
+
+                    For Each unaBebida As BebidaEntity In unEvento.lstBebidas
+
+                        cadenaFinal += "<h5> " + unaBebida.nombreBebida + "</h5>"
+                        cadenaFinal += "<TABLE BORDER='0'><TR><TD></TD><TD>Precio total de la bebida: </TD><TD>" + CStr(unaBebida.Precio * unEvento.CantPersonas) + "</TD></TR>"
+
+                        cadenaFinal += "</TABLE>"
+
+
+                        precioTotalBebida += unaBebida.Precio
+                    Next
+
+                    cadenaFinal += "<h5> Precio Total de las bebidas:" + CStr(precioTotalBebida) + "</h5>"
+                    cadenaFinal += "<h5> Servicio de Catering:" + CStr(unEvento.PrecioTotalEvento * 0.35) + "</h5>"
+                    cadenaFinal += "<h3> Precio Total del Evento:" + CStr(unEvento.PrecioTotalEvento) + "</h3>"
+
+                    'Assign Html content in a string to write in PDF 
+                    Dim strContent As String = cadenaFinal
+                    'Read string contents using stream reader and convert html to parsed conent 
+                    Dim parsedHtmlElements = HTMLWorker.ParseToList(New StringReader(strContent), Nothing)
+                    'Get each array values from parsed elements and add to the PDF document 
+                    For Each htmlElement As IElement In parsedHtmlElements
+                        pdfDoc.Add(TryCast(htmlElement, IElement))
+                    Next
+
+                    'Close your PDF 
+                    pdfDoc.Close()
+
+                    Response.ContentType = "application/pdf"
+
+                    'Set default file Name as current datetime 
+                    Response.AddHeader("content-disposition", "attachment; filename=" + CStr(unEvento.id_evento) + "-Presupuesto.pdf")
+                    System.Web.HttpContext.Current.Response.Write(pdfDoc)
+
+                    Response.Flush()
+
+                    Response.[End]()
+
+                    Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Evento Creado');" & vbCr & vbLf & "</script>"
+                    ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+                Catch ex As Exception
+                    Response.Write(ex.ToString())
+                End Try
+
+
+            Else
+
+                'Una_Bitacora.id_usuario = GUI.Site.UsuarioEntity.IdUsuario
+                'Una_Bitacora.Fecha = Now()
+                'Una_Bitacora.Accion = "Generar Presupuesto"
+                'Una_Bitacora.InfoAccion = "Sin Disponibilidad"
+                'gestorBitacora.GrabarBitacora(Una_Bitacora, GUI.Site.ConfiguracionBase)
+
+
+                Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('No hay disponibilidad en la fecha seleccionada');" & vbCr & vbLf & "</script>"
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+            End If
+        Catch ex As Exception
+
+            Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Error');" & vbCr & vbLf & "</script>"
+            ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
+        End Try
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     End Sub
 
     Private Sub btn_ModificarMenu_Click(sender As Object, e As EventArgs) Handles btn_ModificarMenu.Click
@@ -331,15 +488,16 @@ Public Class CronogramaEventos
         ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Pop", "modificarEvento();", True)
     End Sub
 
+    Private Sub txt_MCantPersonas_Disposed(sender As Object, e As EventArgs) Handles txt_MCantPersonas.Disposed
+
+    End Sub
+
 
     Private Sub txt_MCantPersonas_TextChanged(sender As Object, e As EventArgs) Handles txt_MCantPersonas.TextChanged
 
-        lbl_MMPrecio.Text = (CDec(lbl_MMPrecio.Text) * CInt(txt_MCantPersonas.Text)) * 1.3500000000000001
+        lbl_MMPrecio.Text = (CDec(lbl_MMPrecio.Text) * CInt(txt_MCantPersonas.Text)) * 1.35
 
     End Sub
 
-    Private Sub txt_MCantPersonas_Unload(sender As Object, e As EventArgs) Handles txt_MCantPersonas.Unload
-        lbl_MMPrecio.Text = (CDec(lbl_MMPrecio.Text) * CInt(txt_MCantPersonas.Text)) * 1.3500000000000001
 
-    End Sub
 End Class

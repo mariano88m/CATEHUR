@@ -236,7 +236,7 @@
 
                                   <tr>
                                     <td style="padding-top:1em;" class="auto-style2"><asp:Label ID="lbl_MCantPersonas" runat="server" Text="Cantidad de Personas"></asp:Label></td>
-                                    <td style="padding-top:1em;" class="auto-style3"><asp:textbox ID="txt_MCantPersonas" runat="server" Text=""></asp:textbox></td>
+                                    <td style="padding-top:1em;" class="auto-style3"><asp:textbox ID="txt_MCantPersonas" runat="server" OnTextChanged="txt_OnTextChanged" AutoPostBack="true" Text=""></asp:textbox></td>
                                   </tr>
                                                                         
                                   <tr>

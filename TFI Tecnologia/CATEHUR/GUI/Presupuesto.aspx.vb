@@ -255,7 +255,7 @@ Public Class Presupuesto
     End Sub
 
     Private Sub btn_GenerarPresupuesto_Click(sender As Object, e As EventArgs) Handles btn_GenerarPresupuesto.Click
-        ModalCatering.Value = ""
+
         Try
             unEvento.PrecioTotalEvento = (unEvento.PrecioTotalEvento * CInt(txt_cantPersonas.Text)) * 1.35
             unEvento.CantPersonas = CInt(txt_cantPersonas.Text)
@@ -357,14 +357,15 @@ Public Class Presupuesto
                     Response.Flush()
 
                     Response.[End]()
-                    Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Evento Creado');" & vbCr & vbLf & "</script>"
 
+                    Dim script As String = "<script type='text/javascript'>" & vbCr & vbLf & " alert('Evento Creado');" & vbCr & vbLf & "</script>"
                     ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, False)
+
                 Catch ex As Exception
                     Response.Write(ex.ToString())
                 End Try
 
-                
+
             Else
 
                 Una_Bitacora.id_usuario = GUI.Site.UsuarioEntity.IdUsuario
